@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D&I | Courses</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="logo-text">D&I</div>
+    <div class="logo-sub">Tongji University</div>
+  </a>
+  <div class="nav-right">
+    <div class="lang-toggle" id="lang-toggle">
+      <span class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中</span>
+      <span class="lang-btn" data-lang="en" onclick="setLang('en')">EN</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html" data-page="home" data-t="nav_home">Home</a>
+      <a href="projects.html" data-page="projects" data-t="nav_projects">Projects</a>
+      <a href="faculty.html" data-page="faculty" data-t="nav_faculty">Faculty</a>
+      <a href="courses.html" data-page="courses" data-t="nav_courses">Courses</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <h1 data-lang-zh="课程" data-lang-en="Courses"></h1>
+  <div class="page-subtitle" data-lang-zh="可持续设计与社会创新相关的本科与研究生课程" data-lang-en="Undergraduate and graduate courses in sustainable design and social innovation"></div>
+</div>
+
+<div class="section">
+  <div class="section-header">
+    <h2><span class="color-dot"></span> <span data-lang-zh="全部课程" data-lang-en="All Courses"></span></h2>
+    <span class="count" id="courses-count"></span>
+  </div>
+  <div class="courses-grid" id="courses-grid"></div>
+</div>
+
+<div class="detail-overlay" id="detail-overlay">
+  <button class="detail-close" onclick="closeDetail()">&times;</button>
+  <div class="detail-content" id="detail-content"></div>
+</div>
+
+<div class="footer">
+  <span class="brand">D&I Tongji</span>
+  <span>College of Design & Innovation, Tongji University</span>
+  <a href="#">Sustainable Design &times; Social Innovation</a>
+</div>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+<script>
+/* ─── Courses Page ─── */
+function renderPage(){
+  const data = getData();
+  const grid = document.getElementById('courses-grid');
+
+  let cards = [];
+  data.forEach(f=>{
+    (f.courses||[]).forEach((c,idx)=>{
+      const name = langField(c,'name') || T('untitled');
+      const desc = langField(c,'description');
+      const facName = f.name_zh || f.name_en || '';
+      cards.push({name, description:desc, facultyName:facName, facultyPhoto:f.photo, facultyId:f.id, crsIndex:idx});
+    });
+  });
+
+  document.getElementById('courses-count').textContent = cards.length + T('courses_suffix');
+
+  if(!cards.length){
+    grid.innerHTML = `<div class="empty-state"><div class="icon">+</div><h3>${T('no_courses')}</h3></div>`;
+    return;
+  }
+
+  grid.innerHTML = cards.map(c=>`
+    <div class="course-card-home" onclick="openCourseDetail('${c.facultyId}',${c.crsIndex})">
+      <div class="course-label">${T('label_course')}</div>
+      <h3>${esc(c.name)}</h3>
+      <p>${esc(c.description)||''}</p>
+      <div class="course-instructor">
+        <div class="mini-avatar">${c.facultyPhoto ? `<img src="${c.facultyPhoto}">` : ''}</div>
+        <span>${esc(c.facultyName)}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+setActiveNav('courses');
+renderPage();
+</script>
+</body>
+</html>

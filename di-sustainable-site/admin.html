@@ -43,6 +43,11 @@ a:hover{color:var(--color-link-hover)}
 .search-box .search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--color-text-weak);font-size:13px;pointer-events:none}
 .stat{font-size:11px;color:var(--color-text-muted);letter-spacing:0.5px}
 
+/* ---- Language Toggle ---- */
+.lang-tabs{display:flex;gap:2px;background:var(--color-bg-muted);border-radius:4px;padding:2px}
+.lang-tab{padding:4px 12px;font-size:11px;font-weight:600;cursor:pointer;border:none;background:transparent;color:var(--color-text-muted);border-radius:3px;transition:var(--transition);font-family:var(--font-sans)}
+.lang-tab.active{background:#fff;color:var(--color-title-deep);box-shadow:0 1px 2px rgba(0,0,0,0.06)}
+
 /* ---- Buttons ---- */
 .btn{padding:6px 14px;font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;cursor:pointer;transition:var(--transition);border:none;display:inline-flex;align-items:center;gap:5px}
 .btn-sm{padding:4px 10px;font-size:10px}
@@ -84,6 +89,9 @@ a:hover{color:var(--color-link-hover)}
 .cell:not(:empty)::before{display:none}
 .cell.name-cell{font-weight:700;font-size:14px;color:var(--color-title-deep)}
 .cell.title-cell{font-size:12px;color:var(--color-text-sub)}
+.cell-lang-tag{font-size:9px;font-weight:700;padding:1px 4px;border-radius:2px;margin-left:4px;vertical-align:middle}
+.cell-lang-zh{background:var(--accent-red);color:#fff}
+.cell-lang-en{background:var(--accent-blue);color:#fff}
 
 /* ---- Tags in table ---- */
 .tags-cell{padding:6px 10px;display:flex;flex-wrap:wrap;gap:4px;min-height:38px;align-items:flex-start}
@@ -95,8 +103,8 @@ a:hover{color:var(--color-link-hover)}
 .items-cell{padding:6px 10px;display:flex;flex-direction:column;gap:4px}
 .mini-item{padding:6px 10px;background:var(--color-bg-subtle);border:1px solid var(--color-border-sub);font-size:12px;cursor:pointer;transition:var(--transition);position:relative}
 .mini-item:hover{border-color:var(--color-border)}
-.mini-item .mi-name{font-weight:600;color:var(--color-text-heading);margin-bottom:2px}
-.mini-item .mi-desc{color:var(--color-text-muted);font-size:11px;line-height:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.mini-item .mi-name{font-weight:600;color:var(--color-text-heading);margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini-item .mi-desc{color:var(--color-text-muted);font-size:11px;line-height:1.4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
 .mini-item .mi-badge{position:absolute;top:-5px;right:-5px;width:18px;height:18px;background:var(--accent-red);color:#fff;font-size:9px;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transition:var(--transition);font-weight:700}
 .mini-item:hover .mi-badge{opacity:1}
 .mini-add{padding:6px 10px;border:1px dashed var(--color-border-sub);color:var(--color-text-weak);font-size:11px;font-weight:600;cursor:pointer;text-align:center;transition:var(--transition)}
@@ -119,10 +127,10 @@ a:hover{color:var(--color-link-hover)}
 .photo-upload-mini{width:36px;height:48px;border:1px dashed var(--color-border-sub);display:flex;align-items:center;justify-content:center;color:var(--color-text-weak);font-size:14px;cursor:pointer;transition:var(--transition)}
 .photo-upload-mini:hover{border-color:var(--accent-blue);color:var(--accent-blue)}
 
-/* ---- Detail Panel (right slide) ---- */
+/* ---- Detail Panel ---- */
 .panel-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.15);z-index:200;opacity:0;pointer-events:none;transition:opacity 0.2s ease}
 .panel-overlay.active{opacity:1;pointer-events:auto}
-.detail-panel{position:fixed;top:0;right:0;bottom:0;width:560px;max-width:90vw;background:var(--color-bg);z-index:201;box-shadow:-4px 0 20px rgba(0,0,0,0.08);transform:translateX(100%);transition:transform 0.25s cubic-bezier(0.4,0,0.2,1);overflow-y:auto}
+.detail-panel{position:fixed;top:0;right:0;bottom:0;width:720px;max-width:92vw;background:var(--color-bg);z-index:201;box-shadow:-4px 0 20px rgba(0,0,0,0.08);transform:translateX(100%);transition:transform 0.25s cubic-bezier(0.4,0,0.2,1);overflow-y:auto}
 .detail-panel.active{transform:translateX(0)}
 .panel-header{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid var(--color-border);position:sticky;top:0;background:var(--color-bg);z-index:1}
 .panel-header h2{font-size:15px;font-weight:700;color:var(--color-title-deep)}
@@ -131,16 +139,22 @@ a:hover{color:var(--color-link-hover)}
 .panel-close:hover{background:var(--color-link-hover);color:#fff;border-color:var(--color-link-hover)}
 .panel-body{padding:24px}
 
-/* Panel fields */
+/* Panel fields - bilingual */
 .p-field{margin-bottom:20px}
 .p-field label{display:block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--color-text-muted);margin-bottom:5px}
 .p-field label .hint{font-weight:400;text-transform:none;letter-spacing:0;opacity:0.8;color:var(--color-text-sub)}
+.p-field label .lang-badge{display:inline-block;font-size:9px;font-weight:700;padding:1px 5px;border-radius:2px;margin-left:4px;vertical-align:middle}
+.p-field label .lang-badge-zh{background:var(--accent-red);color:#fff}
+.p-field label .lang-badge-en{background:var(--accent-blue);color:#fff}
 .p-field input[type="text"],
 .p-field textarea{width:100%;padding:7px 10px;border:1px solid var(--color-input-border);font-family:var(--font-sans);font-size:13px;line-height:1.5;transition:var(--transition);background:var(--color-input-bg);color:var(--color-text-heading)}
 .p-field input:focus,.p-field textarea:focus{outline:none;border-color:var(--accent-blue)}
 .p-field textarea{resize:vertical;min-height:70px}
 .p-char-count{text-align:right;font-size:10px;color:var(--color-text-muted);margin-top:3px}
 .p-char-count.warn{color:var(--accent-red)}
+
+.p-bilingual{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.p-bilingual .p-half label{display:flex;align-items:center;gap:4px}
 
 .p-group{border:1px solid var(--color-border-sub);padding:12px 14px;margin-bottom:8px;position:relative;background:var(--color-bg-subtle)}
 .p-group h4{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--accent-blue);margin-bottom:8px}
@@ -155,14 +169,17 @@ a:hover{color:var(--color-link-hover)}
 .p-photo input{position:absolute;inset:0;opacity:0;cursor:pointer}
 .p-photo .ph-text{font-size:10px;font-weight:600;color:var(--color-text-muted);text-align:center}
 
-.p-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:6px}
-.p-gallery-slot{aspect-ratio:4/3;border:1px dashed var(--color-border-sub);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;cursor:pointer;transition:var(--transition);background:var(--color-bg-alt)}
+.p-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+.p-gallery-slot{aspect-ratio:4/3;border:1px solid var(--color-border-sub);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;cursor:pointer;transition:var(--transition);background:var(--color-bg-alt);border-radius:2px}
 .p-gallery-slot:hover{border-color:var(--accent-blue)}
 .p-gallery-slot img{width:100%;height:100%;object-fit:cover;position:absolute}
 .p-gallery-slot .plus{font-size:18px;color:var(--color-border-sub);pointer-events:none}
-.p-gallery-slot input{position:absolute;inset:0;opacity:0;cursor:pointer}
-.p-gallery-slot .cap{position:absolute;bottom:0;left:0;right:0;padding:3px 5px;background:rgba(0,0,0,0.5);color:#fff;font-size:9px;font-weight:600;border:none;outline:none;font-family:var(--font-sans)}
-.p-gallery-slot .g-rm{position:absolute;top:2px;right:2px;width:16px;height:16px;background:var(--accent-red);color:#fff;border:none;cursor:pointer;font-size:9px;display:flex;align-items:center;justify-content:center;opacity:0;transition:var(--transition)}
+.p-gallery-slot input[type="file"]{position:absolute;inset:0;opacity:0;cursor:pointer}
+.p-gallery-slot .g-bottom{position:absolute;bottom:0;left:0;right:0;display:flex;flex-direction:column;z-index:2}
+.p-gallery-slot .g-caption-row{display:flex;gap:2px}
+.p-gallery-slot .cap{flex:1;padding:2px 4px;background:rgba(0,0,0,0.55);color:#fff;font-size:8px;font-weight:600;border:none;outline:none;font-family:var(--font-sans);line-height:1.4}
+.p-gallery-slot .cap::placeholder{color:rgba(255,255,255,0.5)}
+.p-gallery-slot .g-rm{position:absolute;top:2px;right:2px;width:18px;height:18px;background:var(--accent-red);color:#fff;border:none;cursor:pointer;font-size:10px;display:flex;align-items:center;justify-content:center;opacity:0;transition:var(--transition);z-index:3;border-radius:0}
 .p-gallery-slot:hover .g-rm{opacity:1}
 
 /* ---- Toast ---- */
@@ -175,21 +192,28 @@ a:hover{color:var(--color-link-hover)}
 .empty-state h3{font-size:15px;font-weight:700;color:var(--color-title-deep);margin-bottom:8px}
 .empty-state p{font-size:13px;max-width:400px;margin:0 auto 16px;line-height:1.7;color:var(--color-text-sub)}
 
-/* Column widths */
+/* ---- Column widths ---- */
 .col-photo{width:60px}
-.col-name{width:200px}
-.col-title{width:160px}
-.col-tags{width:200px}
-.col-bio{width:280px}
-.col-work{width:260px}
-.col-courses{width:220px}
-.col-gallery{width:180px}
+.col-name{width:180px}
+.col-title{width:140px}
+.col-tags{width:180px}
+.col-bio{width:240px}
+.col-work{width:240px}
+.col-courses{width:200px}
+.col-gallery{width:140px}
 .col-actions{width:50px}
+
+/* ---- Image upload drop zone ---- */
+.drop-zone{border:2px dashed var(--color-border-sub);border-radius:6px;padding:24px;text-align:center;cursor:pointer;transition:var(--transition);margin-bottom:12px;color:var(--color-text-muted)}
+.drop-zone:hover,.drop-zone.drag-over{border-color:var(--accent-blue);background:rgba(30,90,240,0.03)}
+.drop-zone p{font-size:12px;margin-top:6px}
+.drop-zone .drop-icon{font-size:24px;opacity:0.4}
 
 @media(max-width:900px){
   .toolbar{flex-direction:column;gap:8px;align-items:flex-start}
   .detail-panel{width:100%;max-width:100vw}
   .col-bio,.col-work,.col-courses,.col-gallery{display:none}
+  .p-bilingual{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -201,6 +225,10 @@ a:hover{color:var(--color-link-hover)}
     <div class="nav-title"><span class="icon"></span> Faculty Database</div>
   </div>
   <div class="nav-right">
+    <div class="lang-tabs" id="viewLangTabs">
+      <button class="lang-tab active" onclick="setViewLang('zh')">中文</button>
+      <button class="lang-tab" onclick="setViewLang('en')">EN</button>
+    </div>
     <a href="index.html">View Site</a>
   </div>
 </nav>
@@ -208,7 +236,7 @@ a:hover{color:var(--color-link-hover)}
 <div class="toolbar">
   <div class="toolbar-left">
     <div class="search-box">
-      <span class="search-icon">⌕</span>
+      <span class="search-icon">&#x2315;</span>
       <input type="text" id="search" placeholder="Search..." oninput="renderTable()">
     </div>
     <span class="stat" id="stat"></span>
@@ -216,7 +244,7 @@ a:hover{color:var(--color-link-hover)}
   <div class="toolbar-right">
     <button class="btn btn-add" onclick="addNew()">+ New</button>
     <button class="btn btn-export" onclick="exportData()">Export data.js</button>
-    <button class="btn btn-sm" onclick="reseedFromDataJs()">Reset from data.js</button>
+    <button class="btn btn-sm btn-ghost" onclick="reseedFromDataJs()">Discard Edits</button>
   </div>
 </div>
 
@@ -230,7 +258,7 @@ a:hover{color:var(--color-link-hover)}
           <th class="col-title"><div class="th-inner">Title</div></th>
           <th class="col-tags"><div class="th-inner">Tags</div></th>
           <th class="col-bio"><div class="th-inner">Bio</div></th>
-          <th class="col-work"><div class="th-inner">Selected Work</div></th>
+          <th class="col-work"><div class="th-inner">Works</div></th>
           <th class="col-courses"><div class="th-inner">Courses</div></th>
           <th class="col-gallery"><div class="th-inner">Gallery</div></th>
           <th class="col-actions"></th>
@@ -257,159 +285,321 @@ a:hover{color:var(--color-link-hover)}
 
 <script src="data.js"></script>
 <script>
-function getData(){try{return JSON.parse(localStorage.getItem('di_faculty'))||[]}catch(e){return[]}}
-function saveData(d){localStorage.setItem('di_faculty',JSON.stringify(d))}
-function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
-function readFileAsDataURL(f){return new Promise((r,j)=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.onerror=j;fr.readAsDataURL(f)})}
-function showToast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000)}
-function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+/* ===== Data Layer — direct in-memory, synced with data.js ===== */
+// Admin loads data from faculty.json (fetch) or falls back to window.__SITE_DATA__ (script tag).
+// All edits happen on this in-memory array. Export writes it back to a data.js file.
 
-let currentId=null;
+let _DATA = [];
+let currentId = null;
+let viewLang = 'zh';
 
-/* ---- Table Rendering ---- */
+function getData(){ return _DATA }
+function uid(){ return Date.now().toString(36) + Math.random().toString(36).slice(2,7) }
+function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;') }
+function showToast(m){ const t=document.getElementById('toast'); t.textContent=m; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2000) }
+function readFileAsDataURL(f){ return new Promise((r,j)=>{ const fr=new FileReader(); fr.onload=()=>r(fr.result); fr.onerror=j; fr.readAsDataURL(f) }) }
+function langVal(obj, field, lang){
+  if(!obj) return '';
+  return obj[field + '_' + lang] || obj[field + '_' + (lang==='zh'?'en':'zh')] || '';
+}
+
+async function loadData(){
+  // Try multiple loading strategies
+  // 1. Already loaded via script tag
+  if(window.__SITE_DATA__ && window.__SITE_DATA__.length){
+    _DATA = JSON.parse(JSON.stringify(window.__SITE_DATA__));
+    return;
+  }
+  // 2. Fetch faculty.json (works in most preview environments)
+  try{
+    const resp = await fetch('faculty.json');
+    if(resp.ok){
+      const data = await resp.json();
+      _DATA = data;
+      return;
+    }
+  }catch(e){ /* ignore, try next */ }
+  // 3. Fetch data.js and parse
+  try{
+    const resp = await fetch('data.js');
+    if(resp.ok){
+      const text = await resp.text();
+      const json = text.replace(/^window\.__SITE_DATA__\s*=\s*/, '').replace(/;\s*$/, '');
+      _DATA = JSON.parse(json);
+      return;
+    }
+  }catch(e){ /* ignore */ }
+  _DATA = [];
+}
+
+async function init(){
+  await loadData();
+  renderTable();
+}
+init();
+
+/* ===== Language Toggle ===== */
+function setViewLang(lang){
+  viewLang = lang;
+  document.querySelectorAll('#viewLangTabs .lang-tab').forEach(t => {
+    t.classList.toggle('active', t.textContent === (lang==='zh'?'中文':'EN'));
+  });
+  renderTable();
+}
+
+/* ===== Table Rendering ===== */
 function getFilteredData(){
-  const q=document.getElementById('search').value.toLowerCase();
-  const data=getData();
-  if(!q)return data;
-  return data.filter(f=>(f.name||'').toLowerCase().includes(q)||(f.title||'').toLowerCase().includes(q)||(f.bio||'').toLowerCase().includes(q)||(f.tags||[]).some(t=>t.toLowerCase().includes(q)));
+  const q = document.getElementById('search').value.toLowerCase();
+  const data = getData();
+  if(!q) return data;
+  return data.filter(f => {
+    const name = (f.name_zh||'') + (f.name_en||'');
+    const title = (f.title_zh||'') + (f.title_en||'');
+    const bio = (f.bio_zh||'') + (f.bio_en||'');
+    return name.toLowerCase().includes(q) || title.toLowerCase().includes(q) || bio.toLowerCase().includes(q) || (f.tags||[]).some(t=>t.toLowerCase().includes(q));
+  });
 }
 
 function renderTable(){
-  const data=getFilteredData();
-  document.getElementById('stat').textContent=data.length+' members · '+(getData().reduce((s,f)=>s+(f.achievements||[]).length,0))+' works · '+(getData().reduce((s,f)=>s+(f.courses||[]).length,0))+' courses';
-  const tbody=document.getElementById('tbody');
+  const data = getFilteredData();
+  const allData = getData();
+  const totalAch = allData.reduce((s,f)=>s+(f.achievements||[]).length,0);
+  const totalCourses = allData.reduce((s,f)=>s+(f.courses||[]).length,0);
+  const totalGallery = allData.reduce((s,f)=>s+(f.gallery||[]).length,0);
+  document.getElementById('stat').textContent = data.length + ' members \u00b7 ' + totalAch + ' works \u00b7 ' + totalCourses + ' courses \u00b7 ' + totalGallery + ' images';
+  
+  const tbody = document.getElementById('tbody');
   if(!data.length){
-    tbody.innerHTML=`<tr><td colspan="9"><div class="empty-state"><div class="icon">+</div><h3>No faculty yet</h3><p>Click "+ New" to add a faculty member.</p></div></td></tr>`;
+    tbody.innerHTML = '<tr><td colspan="9"><div class="empty-state"><div class="icon">+</div><h3>No faculty yet</h3><p>Click "+ New" to add a faculty member, or "Reset from data.js" to load existing data.</p></div></td></tr>';
     return;
   }
-  tbody.innerHTML=data.map(f=>`
-    <tr class="${f.id===currentId?'active':''}" ondblclick="openPanel('${f.id}')">
+  
+  const lang = viewLang;
+  const langBadge = '<span class="cell-lang-tag '+(lang==='zh'?'cell-lang-zh':'cell-lang-en')+'">'+lang.toUpperCase()+'</span>';
+  
+  tbody.innerHTML = data.map(f => {
+    const name = langVal(f,'name',lang);
+    const title = langVal(f,'title',lang);
+    const bio = langVal(f,'bio',lang);
+    
+    return `<tr class="${f.id===currentId?'active':''}" ondblclick="openPanel('${f.id}')">
       <td class="photo-cell" ondblclick="event.stopPropagation()">
-        ${f.photo?`<div class="photo-thumb"><img src="${f.photo}"></div>`
-          :`<div class="photo-upload-mini" onclick="event.stopPropagation();triggerPhotoUpload('${f.id}')">+</div>
-             <input type="file" id="photo-input-${f.id}" accept="image/*" style="display:none" onchange="handlePhotoInline('${f.id}',this)">`}
+        ${f.photo
+          ? '<div class="photo-thumb"><img src="'+esc(f.photo)+'"></div>'
+          : '<div class="photo-upload-mini" onclick="event.stopPropagation();triggerPhotoUpload(\''+f.id+'\')">+</div><input type="file" id="photo-input-'+f.id+'" accept="image/*" style="display:none" onchange="handlePhotoInline(\''+f.id+'\',this)">'
+        }
       </td>
-      <td><div class="cell name-cell" contenteditable="true" data-field="name" data-id="${f.id}" oninput="inlineEdit(this)" onblur="blurCell(this)" onfocus="focusCell(this,'${f.id}')">${esc(f.name)||''}</div></td>
-      <td><div class="cell title-cell" contenteditable="true" data-field="title" data-id="${f.id}" oninput="inlineEdit(this)" onblur="blurCell(this)" onfocus="focusCell(this,'${f.id}')">${esc(f.title)||''}</div></td>
+      <td><div class="cell name-cell">${esc(name)}${langBadge}</div></td>
+      <td><div class="cell title-cell">${esc(title)}</div></td>
       <td>
         <div class="tags-cell" data-id="${f.id}">
-          ${(f.tags||[]).map(t=>`<span class="table-tag" ondblclick="event.stopPropagation()">${esc(t)}</span>`).join('')}
-          <span class="table-tag add" ondblclick="event.stopPropagation();openPanel('${f.id}')">+ tag</span>
+          ${(f.tags||[]).map(t=>'<span class="table-tag">'+esc(t)+'</span>').join('')}
+          <span class="table-tag add" ondblclick="event.stopPropagation();openPanel(\''+f.id+'\')">+ tag</span>
         </div>
       </td>
-      <td><div class="cell" contenteditable="true" data-field="bio" data-id="${f.id}" oninput="inlineEdit(this)" onblur="blurCell(this)" onfocus="focusCell(this,'${f.id}')">${esc(f.bio)||''}</div></td>
+      <td><div class="cell" style="max-height:80px;overflow:hidden">${esc(bio).substring(0,200)}${bio.length>200?'...':''}</div></td>
       <td>
         <div class="items-cell">
-          ${(f.achievements||[]).map((a,i)=>`
-            <div class="mini-item" ondblclick="event.stopPropagation();openPanel('${f.id}')">
-              <div class="mi-name">${esc(a.name||'Untitled')}</div>
-              <div class="mi-desc">${esc(a.description||'')}</div>
-              <div class="mi-badge" onclick="event.stopPropagation();removeAchievement('${f.id}',${i});renderTable()">&times;</div>
-            </div>`).join('')}
-          <div class="mini-add" ondblclick="event.stopPropagation();addAchievementInline('${f.id}')">+ Add Work</div>
+          ${(f.achievements||[]).slice(0,3).map((a,i) => {
+            const aName = langVal(a,'name',lang);
+            const aDesc = langVal(a,'description',lang);
+            return '<div class="mini-item" ondblclick="event.stopPropagation();openPanel(\''+f.id+'\')"><div class="mi-name">'+esc(aName)+'</div><div class="mi-desc">'+esc(aDesc).substring(0,80)+'</div><div class="mi-badge" onclick="event.stopPropagation();removeAchievementInline(\''+f.id+'\','+i+');renderTable()">&times;</div></div>';
+          }).join('')}
+          ${(f.achievements||[]).length>3?'<div class="mini-add">+'+(f.achievements.length-3)+' more</div>':''}
+          <div class="mini-add" ondblclick="event.stopPropagation();addAchievementInline(\''+f.id+'\')">+ Add Work</div>
         </div>
       </td>
       <td>
         <div class="items-cell">
-          ${(f.courses||[]).map((c,i)=>`
-            <div class="mini-item" ondblclick="event.stopPropagation();openPanel('${f.id}')">
-              <div class="mi-name">${esc(c.name||'Untitled')}</div>
-              <div class="mi-desc">${esc(c.description||'')}</div>
-              <div class="mi-badge" onclick="event.stopPropagation();removeCourseInline('${f.id}',${i});renderTable()">&times;</div>
-            </div>`).join('')}
-          <div class="mini-add" ondblclick="event.stopPropagation();addCourseInline('${f.id}')">+ Add Course</div>
+          ${(f.courses||[]).slice(0,3).map((c,i) => {
+            const cName = langVal(c,'name',lang);
+            return '<div class="mini-item" ondblclick="event.stopPropagation();openPanel(\''+f.id+'\')"><div class="mi-name">'+esc(cName)+'</div><div class="mi-badge" onclick="event.stopPropagation();removeCourseInline(\''+f.id+'\','+i+');renderTable()">&times;</div></div>';
+          }).join('')}
+          ${(f.courses||[]).length>3?'<div class="mini-add">+'+(f.courses.length-3)+' more</div>':''}
+          <div class="mini-add" ondblclick="event.stopPropagation();addCourseInline(\''+f.id+'\')">+ Add Course</div>
         </div>
       </td>
       <td>
         <div class="gallery-cell">
-          ${(f.gallery||[]).slice(0,4).map((g,i)=>`
-            <div class="gallery-thumb">
-              <img src="${g.src}">
-              <div class="gt-remove" onclick="event.stopPropagation();removeGalleryInline('${f.id}',${i});renderTable()">&times;</div>
-            </div>`).join('')}
-          ${!((f.gallery||[]).length)?`<div class="gallery-add" onclick="event.stopPropagation();openPanel('${f.id}')">+</div>`:''}
-          ${(f.gallery||[]).length>4?`<span class="gallery-count">+${(f.gallery||[]).length-4}</span>`:''}
+          ${(f.gallery||[]).slice(0,4).map((g,i) =>
+            '<div class="gallery-thumb"><img src="'+esc(g.src)+'"><div class="gt-remove" onclick="event.stopPropagation();removeGalleryInline(\''+f.id+'\','+i+');renderTable()">&times;</div></div>'
+          ).join('')}
+          ${!(f.gallery||[]).length?'<div class="gallery-add" onclick="event.stopPropagation();openPanel(\''+f.id+'\')">+</div>':''}
+          ${(f.gallery||[]).length>4?'<span class="gallery-count">+'+(f.gallery.length-4)+'</span>':''}
         </div>
       </td>
       <td>
-        <button class="btn btn-sm btn-danger-ghost" onclick="deleteFaculty('${f.id}')" title="Delete">✕</button>
+        <button class="btn btn-sm btn-danger-ghost" onclick="deleteFaculty('${f.id}')" title="Delete">&#x2715;</button>
       </td>
-    </tr>`).join('');
+    </tr>';
+  }).join('');
 }
 
-/* ---- Inline editing ---- */
-function inlineEdit(el){const field=el.dataset.field;const id=el.dataset.id;const data=getData();const f=data.find(x=>x.id===id);if(f){f[field]=el.innerText;saveData(data)}}
-function focusCell(el,id){currentId=id;renderTable()}
-function blurCell(el){renderTable()}
+/* ===== Inline Actions ===== */
+function triggerPhotoUpload(id){ document.getElementById('photo-input-'+id).click() }
+async function handlePhotoInline(id, input){
+  const file = input.files[0]; if(!file) return;
+  const url = await readFileAsDataURL(file);
+  const f = _DATA.find(x=>x.id===id);
+  if(f){ f.photo = url; renderTable(); showToast('Photo updated') }
+}
 
-function triggerPhotoUpload(id){document.getElementById('photo-input-'+id).click()}
-async function handlePhotoInline(id,input){const file=input.files[0];if(!file)return;const url=await readFileAsDataURL(file);const data=getData();const f=data.find(x=>x.id===id);if(f){f.photo=url;saveData(data)}renderTable();showToast('Photo updated')}
-
-function addAchievementInline(id){const data=getData();const f=data.find(x=>x.id===id);if(f){if(!f.achievements)f.achievements=[];f.achievements.push({name:'',description:''});saveData(data);renderTable();openPanel(id)}}
-function removeAchievementInline(id,i){const data=getData();const f=data.find(x=>x.id===id);if(f&&f.achievements){f.achievements.splice(i,1);saveData(data)}}
-function addCourseInline(id){const data=getData();const f=data.find(x=>x.id===id);if(f){if(!f.courses)f.courses=[];f.courses.push({name:'',description:''});saveData(data);renderTable();openPanel(id)}}
-function removeCourseInline(id,i){const data=getData();const f=data.find(x=>x.id===id);if(f&&f.courses){f.courses.splice(i,1);saveData(data)}}
-function removeGalleryInline(id,i){const data=getData();const f=data.find(x=>x.id===id);if(f&&f.gallery){f.gallery.splice(i,1);saveData(data)}}
+function addAchievementInline(id){
+  const f=_DATA.find(x=>x.id===id);
+  if(f){ if(!f.achievements) f.achievements=[]; f.achievements.push({name_zh:'',name_en:'',description_zh:'',description_en:''}); renderTable(); openPanel(id) }
+}
+function removeAchievementInline(id,i){ const f=_DATA.find(x=>x.id===id); if(f&&f.achievements){ f.achievements.splice(i,1); renderTable() } }
+function addCourseInline(id){
+  const f=_DATA.find(x=>x.id===id);
+  if(f){ if(!f.courses) f.courses=[]; f.courses.push({name_zh:'',name_en:'',description_zh:'',description_en:''}); renderTable(); openPanel(id) }
+}
+function removeCourseInline(id,i){ const f=_DATA.find(x=>x.id===id); if(f&&f.courses){ f.courses.splice(i,1); renderTable() } }
+function removeGalleryInline(id,i){ const f=_DATA.find(x=>x.id===id); if(f&&f.gallery){ f.gallery.splice(i,1); renderTable() } }
 
 function addNew(){
-  const data=getData();const id=uid();
-  data.push({id,name:'',title:'',photo:'',bio:'',tags:[],achievements:[],courses:[],gallery:[]});
-  saveData(data);renderTable();openPanel(id);
+  const id=uid();
+  _DATA.push({ id, photo:'', name_zh:'', name_en:'', title_zh:'', title_en:'', bio_zh:'', bio_en:'', tags:[], achievements:[], courses:[], gallery:[] });
+  renderTable(); openPanel(id);
 }
 function deleteFaculty(id){
-  if(!confirm('Delete this faculty member?'))return;
-  let data=getData();data=data.filter(f=>f.id!==id);saveData(data);
-  if(currentId===id)currentId=null;renderTable();showToast('Deleted');
+  if(!confirm('Delete this faculty member?')) return;
+  _DATA = _DATA.filter(f=>f.id!==id);
+  if(currentId===id) currentId=null; renderTable(); showToast('Deleted');
 }
 
-/* ---- Detail Panel ---- */
+/* ===== Detail Panel (Bilingual) ===== */
 function openPanel(id){
-  currentId=id;renderTable();
-  const data=getData();const f=data.find(x=>x.id===id);if(!f)return;
-  document.getElementById('panel-title').textContent=f.name||'New Faculty';
-  const body=document.getElementById('panel-body');
-  body.innerHTML=`
-    <div class="p-field"><label>Photo</label>
+  currentId = id; renderTable();
+  const data = getData(); const f = data.find(x=>x.id===id); if(!f) return;
+  const title = f.name_zh || f.name_en || 'New Faculty';
+  document.getElementById('panel-title').textContent = title;
+  
+  const body = document.getElementById('panel-body');
+  body.innerHTML = `
+    <!-- Photo Upload -->
+    <div class="p-field">
+      <label>Faculty Photo</label>
       <div class="p-photo" id="p-photo-wrap">
-        ${f.photo?`<img src="${f.photo}">`:`<span class="ph-text">Upload</span>`}
+        ${f.photo?'<img src="'+esc(f.photo)+'">':'<span class="ph-text">Upload<br>Photo</span>'}
         <input type="file" accept="image/*" onchange="handlePanelPhoto(this)">
       </div>
     </div>
-    <div class="p-field"><label>Name</label><input type="text" value="${esc(f.name)}" oninput="updateField('name',this.value)"></div>
-    <div class="p-field"><label>Title</label><input type="text" value="${esc(f.title)}" oninput="updateField('title',this.value)"></div>
-    <div class="p-field"><label>Tags <span class="hint">comma separated</span></label><input type="text" value="${esc((f.tags||[]).join(', '))}" oninput="updateField('tags',this.value.split(',').map(s=>s.trim()).filter(Boolean))"></div>
-    <div class="p-field"><label>Bio <span class="hint">~300 chars</span></label>
-      <textarea oninput="updateField('bio',this.value);updateCount('p-bio-c',this.value,300)">${esc(f.bio)}</textarea>
-      <div class="p-char-count" id="p-bio-c">${(f.bio||'').length}/300</div>
+    
+    <!-- Name (Bilingual) -->
+    <div class="p-bilingual">
+      <div class="p-half">
+        <label>Name <span class="lang-badge lang-badge-zh">ZH</span></label>
+        <input type="text" value="${esc(f.name_zh)}" oninput="updateField('name_zh',this.value)" placeholder="中文名">
+      </div>
+      <div class="p-half">
+        <label>Name <span class="lang-badge lang-badge-en">EN</span></label>
+        <input type="text" value="${esc(f.name_en)}" oninput="updateField('name_en',this.value)" placeholder="English Name">
+      </div>
     </div>
-    <div class="p-field"><label>Selected Work</label>
+    
+    <!-- Title (Bilingual) -->
+    <div class="p-bilingual">
+      <div class="p-half">
+        <label>Title <span class="lang-badge lang-badge-zh">ZH</span></label>
+        <input type="text" value="${esc(f.title_zh)}" oninput="updateField('title_zh',this.value)" placeholder="中文职称">
+      </div>
+      <div class="p-half">
+        <label>Title <span class="lang-badge lang-badge-en">EN</span></label>
+        <input type="text" value="${esc(f.title_en)}" oninput="updateField('title_en',this.value)" placeholder="English Title">
+      </div>
+    </div>
+    
+    <!-- Tags -->
+    <div class="p-field">
+      <label>Tags <span class="hint">comma separated (English)</span></label>
+      <input type="text" value="${esc((f.tags||[]).join(', '))}" oninput="updateField('tags',this.value.split(',').map(s=>s.trim()).filter(Boolean))">
+    </div>
+    
+    <!-- Bio (Bilingual) -->
+    <div class="p-field">
+      <label>Bio <span class="lang-badge lang-badge-zh">ZH</span> <span class="hint">~300 chars</span></label>
+      <textarea oninput="updateField('bio_zh',this.value);updateCount('p-bio-zh-c',this.value,300)">${esc(f.bio_zh)}</textarea>
+      <div class="p-char-count" id="p-bio-zh-c">${(f.bio_zh||'').length}/300</div>
+    </div>
+    <div class="p-field">
+      <label>Bio <span class="lang-badge lang-badge-en">EN</span> <span class="hint">~300 chars</span></label>
+      <textarea oninput="updateField('bio_en',this.value);updateCount('p-bio-en-c',this.value,300)">${esc(f.bio_en)}</textarea>
+      <div class="p-char-count" id="p-bio-en-c">${(f.bio_en||'').length}/300</div>
+    </div>
+    
+    <!-- Achievements (Bilingual) -->
+    <div class="p-field">
+      <label>Selected Works</label>
       <div id="p-achievements">
-        ${(f.achievements||[]).map((a,i)=>`
+        ${(f.achievements||[]).map((a,i) => `
           <div class="p-group">
             <button class="rm" onclick="removePanelAchievement(${i})">&times;</button>
             <h4>Work #${i+1}</h4>
-            <div class="p-field" style="margin-bottom:10px"><input type="text" value="${esc(a.name)}" oninput="updatePanelAchievement(${i},'name',this.value)" placeholder="Name"></div>
-            <div class="p-field" style="margin-bottom:0"><textarea style="min-height:50px" oninput="updatePanelAchievement(${i},'description',this.value)" placeholder="Description (~100 chars)">${esc(a.description)}</textarea></div>
+            <div class="p-bilingual" style="margin-bottom:8px">
+              <div class="p-half">
+                <label style="font-size:9px">Name <span class="lang-badge lang-badge-zh">ZH</span></label>
+                <input type="text" value="${esc(a.name_zh)}" oninput="updatePanelAchievement(${i},'name_zh',this.value)" placeholder="项目/论文名">
+              </div>
+              <div class="p-half">
+                <label style="font-size:9px">Name <span class="lang-badge lang-badge-en">EN</span></label>
+                <input type="text" value="${esc(a.name_en)}" oninput="updatePanelAchievement(${i},'name_en',this.value)" placeholder="Project/Paper Name">
+              </div>
+            </div>
+            <div class="p-bilingual">
+              <div class="p-half">
+                <label style="font-size:9px">Description <span class="lang-badge lang-badge-zh">ZH</span></label>
+                <textarea style="min-height:50px" oninput="updatePanelAchievement(${i},'description_zh',this.value)" placeholder="描述">${esc(a.description_zh)}</textarea>
+              </div>
+              <div class="p-half">
+                <label style="font-size:9px">Description <span class="lang-badge lang-badge-en">EN</span></label>
+                <textarea style="min-height:50px" oninput="updatePanelAchievement(${i},'description_en',this.value)" placeholder="Description">${esc(a.description_en)}</textarea>
+              </div>
+            </div>
           </div>`).join('')}
       </div>
       <button class="p-add" onclick="addPanelAchievement()">+ Add Work</button>
     </div>
-    <div class="p-field"><label>Courses</label>
+    
+    <!-- Courses (Bilingual) -->
+    <div class="p-field">
+      <label>Courses</label>
       <div id="p-courses">
-        ${(f.courses||[]).map((c,i)=>`
+        ${(f.courses||[]).map((c,i) => `
           <div class="p-group">
             <button class="rm" onclick="removePanelCourse(${i})">&times;</button>
             <h4>Course #${i+1}</h4>
-            <div class="p-field" style="margin-bottom:10px"><input type="text" value="${esc(c.name)}" oninput="updatePanelCourse(${i},'name',this.value)" placeholder="Name"></div>
-            <div class="p-field" style="margin-bottom:0"><textarea style="min-height:44px" oninput="updatePanelCourse(${i},'description',this.value)" placeholder="Description (~50 chars)">${esc(c.description)}</textarea></div>
+            <div class="p-bilingual" style="margin-bottom:8px">
+              <div class="p-half">
+                <label style="font-size:9px">Name <span class="lang-badge lang-badge-zh">ZH</span></label>
+                <input type="text" value="${esc(c.name_zh)}" oninput="updatePanelCourse(${i},'name_zh',this.value)" placeholder="课程名">
+              </div>
+              <div class="p-half">
+                <label style="font-size:9px">Name <span class="lang-badge lang-badge-en">EN</span></label>
+                <input type="text" value="${esc(c.name_en)}" oninput="updatePanelCourse(${i},'name_en',this.value)" placeholder="Course Name">
+              </div>
+            </div>
+            <div class="p-bilingual">
+              <div class="p-half">
+                <label style="font-size:9px">Description <span class="lang-badge lang-badge-zh">ZH</span></label>
+                <textarea style="min-height:44px" oninput="updatePanelCourse(${i},'description_zh',this.value)" placeholder="课程描述">${esc(c.description_zh)}</textarea>
+              </div>
+              <div class="p-half">
+                <label style="font-size:9px">Description <span class="lang-badge lang-badge-en">EN</span></label>
+                <textarea style="min-height:44px" oninput="updatePanelCourse(${i},'description_en',this.value)" placeholder="Course Description">${esc(c.description_en)}</textarea>
+              </div>
+            </div>
           </div>`).join('')}
       </div>
       <button class="p-add" onclick="addPanelCourse()">+ Add Course</button>
     </div>
-    <div class="p-field"><label>Gallery <span class="hint">upload images with captions</span></label>
+    
+    <!-- Gallery -->
+    <div class="p-field">
+      <label>Gallery <span class="hint">upload images with bilingual captions</span></label>
       <div class="p-gallery" id="p-gallery"></div>
     </div>
   `;
+  
   renderPanelGallery();
   document.getElementById('panel-overlay').classList.add('active');
   document.getElementById('detail-panel').classList.add('active');
@@ -421,64 +611,119 @@ function closePanel(){
   renderTable();
 }
 
-function updateField(key,val){const data=getData();const f=data.find(x=>x.id===currentId);if(f){f[key]=val;saveData(data)}if(key==='name')document.getElementById('panel-title').textContent=val||'New Faculty'}
-
-function addPanelAchievement(){const data=getData();const f=data.find(x=>x.id===currentId);if(f){if(!f.achievements)f.achievements=[];f.achievements.push({name:'',description:''});saveData(data);openPanel(currentId)}}
-function removePanelAchievement(i){const data=getData();const f=data.find(x=>x.id===currentId);if(f){f.achievements.splice(i,1);saveData(data);openPanel(currentId)}}
-function updatePanelAchievement(i,k,v){const data=getData();const f=data.find(x=>x.id===currentId);if(f&&f.achievements[i]){f.achievements[i][k]=v;saveData(data)}}
-function addPanelCourse(){const data=getData();const f=data.find(x=>x.id===currentId);if(f){if(!f.courses)f.courses=[];f.courses.push({name:'',description:''});saveData(data);openPanel(currentId)}}
-function removePanelCourse(i){const data=getData();const f=data.find(x=>x.id===currentId);if(f){f.courses.splice(i,1);saveData(data);openPanel(currentId)}}
-function updatePanelCourse(i,k,v){const data=getData();const f=data.find(x=>x.id===currentId);if(f&&f.courses[i]){f.courses[i][k]=v;saveData(data)}}
-
-function renderPanelGallery(){
-  const grid=document.getElementById('p-gallery');if(!grid)return;
-  const data=getData();const f=data.find(x=>x.id===currentId);if(!f)return;
-  const gallery=f.gallery||[];
-  let html=gallery.map((g,i)=>`
-    <div class="p-gallery-slot">
-      <img src="${g.src}">
-      <input type="text" class="cap" value="${esc(g.caption||'')}" placeholder="Caption" oninput="updateGalleryCaption(${i},this.value)">
-      <button class="g-rm" onclick="removeGalleryItem(${i})">&times;</button>
-      <input type="file" accept="image/*" onchange="replaceGalleryItem(${i},this)" style="position:absolute;inset:0;opacity:0;cursor:pointer">
-    </div>`).join('');
-  html+=`<div class="p-gallery-slot"><div class="plus">+</div><input type="file" accept="image/*" onchange="addGalleryItem(this)" style="position:absolute;inset:0;opacity:0;cursor:pointer"></div>`;
-  grid.innerHTML=html;
-}
-async function handlePanelPhoto(input){const file=input.files[0];if(!file)return;const url=await readFileAsDataURL(file);updateField('photo',url);document.getElementById('p-photo-wrap').innerHTML=`<img src="${url}"><input type="file" accept="image/*" onchange="handlePanelPhoto(this)">`;renderTable()}
-async function addGalleryItem(input){const file=input.files[0];if(!file)return;const url=await readFileAsDataURL(file);const data=getData();const f=data.find(x=>x.id===currentId);if(f){if(!f.gallery)f.gallery=[];f.gallery.push({src:url,caption:''});saveData(data)}renderPanelGallery();renderTable()}
-async function replaceGalleryItem(i,input){const file=input.files[0];if(!file)return;const url=await readFileAsDataURL(file);const data=getData();const f=data.find(x=>x.id===currentId);if(f&&f.gallery[i]){f.gallery[i].src=url;saveData(data)}renderPanelGallery();renderTable()}
-function removeGalleryItem(i){const data=getData();const f=data.find(x=>x.id===currentId);if(f){f.gallery.splice(i,1);saveData(data)}renderPanelGallery();renderTable()}
-function updateGalleryCaption(i,v){const data=getData();const f=data.find(x=>x.id===currentId);if(f&&f.gallery[i]){f.gallery[i].caption=v;saveData(data)}}
-
-function updateCount(id,v,max){const el=document.getElementById(id);if(!el)return;el.textContent=v.length+'/'+max;el.classList.toggle('warn',v.length>max)}
-function saveAndNotify(){showToast('All changes saved');renderTable();closePanel()}
-function exportData(){
-  const data=getData();const json=JSON.stringify(data,null,2);
-  const content='window.__SITE_DATA__ = '+json+';';
-  const blob=new Blob([content],{type:'application/javascript'});
-  const url=URL.createObjectURL(blob);const a=document.createElement('a');
-  a.href=url;a.download='data.js';a.click();URL.revokeObjectURL(url);showToast('data.js exported');
-}
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel()});
-
-function init(){
-  const existing=getData();
-  if(!existing.length && window.__SITE_DATA__ && window.__SITE_DATA__.length){
-    saveData(window.__SITE_DATA__);
-    console.log('Seeded',window.__SITE_DATA__.length,'records from data.js');
+function updateField(key, val){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f){ f[key]=val }
+  if(key==='name_zh'||key==='name_en'){
+    const t = f.name_zh||f.name_en||'New Faculty';
+    document.getElementById('panel-title').textContent = t;
   }
+}
+
+/* ===== Panel: Achievements ===== */
+function addPanelAchievement(){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f){ if(!f.achievements) f.achievements=[]; f.achievements.push({name_zh:'',name_en:'',description_zh:'',description_en:''}); openPanel(currentId) }
+}
+function removePanelAchievement(i){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f){ f.achievements.splice(i,1); openPanel(currentId) }
+}
+function updatePanelAchievement(i,k,v){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f&&f.achievements[i]){ f.achievements[i][k]=v }
+}
+
+/* ===== Panel: Courses ===== */
+function addPanelCourse(){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f){ if(!f.courses) f.courses=[]; f.courses.push({name_zh:'',name_en:'',description_zh:'',description_en:''}); openPanel(currentId) }
+}
+function removePanelCourse(i){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f){ f.courses.splice(i,1); openPanel(currentId) }
+}
+function updatePanelCourse(i,k,v){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f&&f.courses[i]){ f.courses[i][k]=v }
+}
+
+/* ===== Panel: Gallery ===== */
+function renderPanelGallery(){
+  const grid = document.getElementById('p-gallery'); if(!grid) return;
+  const data = getData(); const f = data.find(x=>x.id===currentId); if(!f) return;
+  const gallery = f.gallery || [];
+  
+  let html = gallery.map((g,i) => `
+    <div class="p-gallery-slot">
+      ${g.src?'<img src="'+esc(g.src)+'">':''}
+      <div class="g-bottom">
+        <div class="g-caption-row">
+          <input type="text" class="cap" value="${esc(g.caption_zh||'')}" placeholder="ZH" oninput="updateGalleryCaption(${i},'caption_zh',this.value)">
+          <input type="text" class="cap" value="${esc(g.caption_en||'')}" placeholder="EN" oninput="updateGalleryCaption(${i},'caption_en',this.value)">
+        </div>
+      </div>
+      <button class="g-rm" onclick="removeGalleryItem(${i})">&times;</button>
+      <input type="file" accept="image/*" onchange="replaceGalleryItem(${i},this)">
+    </div>`).join('');
+  
+  html += '<div class="p-gallery-slot"><div class="plus">+</div><input type="file" accept="image/*" onchange="addGalleryItem(this)"></div>';
+  grid.innerHTML = html;
+}
+
+async function handlePanelPhoto(input){
+  const file = input.files[0]; if(!file) return;
+  const url = await readFileAsDataURL(file);
+  updateField('photo', url);
+  document.getElementById('p-photo-wrap').innerHTML = '<img src="'+url+'"><input type="file" accept="image/*" onchange="handlePanelPhoto(this)">';
   renderTable();
 }
-function reseedFromDataJs(){
-  if(window.__SITE_DATA__ && window.__SITE_DATA__.length){
-    saveData(window.__SITE_DATA__);
-    renderTable();
-    showToast('Imported '+window.__SITE_DATA__.length+' records from data.js');
-  } else {
-    showToast('No data in data.js');
-  }
+
+async function addGalleryItem(input){
+  const file = input.files[0]; if(!file) return;
+  const url = await readFileAsDataURL(file);
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f){ if(!f.gallery) f.gallery=[]; f.gallery.push({src:url, caption_zh:'', caption_en:''}); renderPanelGallery(); renderTable() }
 }
-init();
+async function replaceGalleryItem(i, input){
+  const file = input.files[0]; if(!file) return;
+  const url = await readFileAsDataURL(file);
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f&&f.gallery[i]){ f.gallery[i].src=url; renderPanelGallery(); renderTable() }
+}
+function removeGalleryItem(i){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f){ f.gallery.splice(i,1); renderPanelGallery(); renderTable() }
+}
+function updateGalleryCaption(i, key, v){
+  const f=_DATA.find(x=>x.id===currentId);
+  if(f&&f.gallery[i]){ f.gallery[i][key]=v }
+}
+
+/* ===== Utilities ===== */
+function updateCount(id,v,max){ const el=document.getElementById(id); if(!el) return; el.textContent=v.length+'/'+max; el.classList.toggle('warn',v.length>max) }
+function saveAndNotify(){ showToast('All changes saved'); renderTable(); closePanel() }
+
+function exportData(){
+  const json = JSON.stringify(_DATA, null, 2);
+  const content = 'window.__SITE_DATA__ = ' + json + ';';
+  const blob = new Blob([content], {type:'application/javascript'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'data.js'; a.click();
+  URL.revokeObjectURL(url);
+  showToast('data.js exported (' + _DATA.length + ' faculty)');
+}
+
+/* ===== Init ===== */
+function reseedFromDataJs(){
+  _DATA = JSON.parse(JSON.stringify(window.__SITE_DATA__ || []));
+  renderTable();
+  currentId = null;
+  showToast('Reset to data.js — ' + _DATA.length + ' records');
+}
+
+document.addEventListener('keydown', e => { if(e.key==='Escape') closePanel() });
 </script>
 </body>
 </html>

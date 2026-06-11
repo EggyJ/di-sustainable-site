@@ -1,0 +1,470 @@
+[
+  {
+    "id": "zhang-shuai",
+    "photo": "images/photo-shuai-zhang.webp",
+    "name_zh": "\u5f20\u5e05",
+    "name_en": "Shuai Zhang",
+    "title_zh": "\u526f\u6559\u6388\u3001\u535a\u58eb\u751f\u5bfc\u5e08",
+    "title_en": "Associate Professor, PhD Supervisor",
+    "bio_zh": "\u7ecf\u6d4e\u5b66\u535a\u58eb\uff0c\u540c\u6d4e\u5927\u5b66\u8bbe\u8ba1\u521b\u610f\u5b66\u9662\u526f\u6559\u6388\u3001\u535a\u58eb\u751f\u5bfc\u5e08\u3002\u4e3b\u8981\u7814\u7a76\u65b9\u5411\u5305\u62ec\u53ef\u6301\u7eed\u8bbe\u8ba1\u3001\u53ef\u6301\u7eed\u6d88\u8d39\u884c\u4e3a\u3001\u53ef\u6301\u7eed\u53d1\u5c55\u7ecf\u6d4e\u5b66\u3002\u4e3b\u6301\u300a\u5f3a\u53ef\u6301\u7eed\u53d1\u5c55\u89c2\u300b\u4e00\u4e66\uff0c\u5728Design Journal\u3001British Food Journal\u3001Habitat International\u7b49\u56fd\u9645\u671f\u520a\u53d1\u8868\u591a\u7bc7\u8bba\u6587\u3002\u8d1f\u8d23\u201c\u6668\u5149\u201d\u548c\u201c\u626c\u5e06\u201d\u7b49\u4eba\u624d\u57f9\u517b\u9879\u76ee\u3002",
+    "bio_en": "PhD in Economics, Associate Professor and PhD Supervisor at the College of Design and Innovation, Tongji University. His main research interests include sustainable design, sustainable consumer behavior, and sustainable development economics. He authored the book Strong Sustainable Development View and has published in international journals including Design Journal, British Food Journal, and Habitat International. He leads talent development programs including Chenguang and Yangfan.",
+    "tags": [
+      "Sustainable Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "\u300a\u5f3a\u53ef\u6301\u7eed\u53d1\u5c55\u89c2\u300b\u4e13\u8457",
+        "name_en": "Strong Sustainable Development View (Book)",
+        "description_zh": "\u300a\u5f3a\u53ef\u6301\u7eed\u53d1\u5c55\u89c2\u300b\u4e00\u4e66\uff0c\u7cfb\u7edf\u9610\u8ff0\u5f3a\u53ef\u6301\u7eed\u53d1\u5c55\u89c2\u7684\u7406\u8bba\u4e0e\u5b9e\u8df5\u3002",
+        "description_en": "A book systematically presenting the theory and practice of the strong sustainable development view."
+      },
+      {
+        "name_zh": "How to Define Sustainable Design",
+        "name_en": "How to Define Sustainable Design",
+        "description_zh": "\u53d1\u8868\u4e8e Design Journal\uff08AHCI\uff09\uff0c\u63a2\u8ba8\u53ef\u6301\u7eed\u8bbe\u8ba1\u7684\u5b9a\u4e49\u4e0e\u8fb9\u754c\u3002",
+        "description_en": "Published in Design Journal (AHCI), exploring the definition and boundaries of sustainable design."
+      },
+      {
+        "name_zh": "Design for Sustainable Consumer Behavior",
+        "name_en": "Design for Sustainable Consumer Behavior",
+        "description_zh": "\u53d1\u8868\u4e8e British Food Journal\uff08SCI IF 4.2\uff09\uff0c\u7814\u7a76\u9762\u5411\u53ef\u6301\u7eed\u6d88\u8d39\u884c\u4e3a\u7684\u8bbe\u8ba1\u65b9\u6cd5\u3002",
+        "description_en": "Published in British Food Journal (SCI IF 4.2), studying design methods for sustainable consumer behavior."
+      },
+      {
+        "name_zh": "\u4ece\u589e\u957f\u5230\u7a33\u6001\u2014\u2014\u8d6b\u5c14\u66fc\u00b7\u6234\u5229\u7ecf\u6d4e\u601d\u60f3\u8bc4\u8ff0",
+        "name_en": "From Growth to Steady State: A Review of Herman Daly's Economic Thought",
+        "description_zh": "\u53d1\u8868\u4e8e CSSCI \u671f\u520a\uff08IF 11.481\uff09\uff0c\u8bc4\u8ff0\u8d6b\u5c14\u66fc\u00b7\u6234\u5229\u7684\u7a33\u6001\u7ecf\u6d4e\u5b66\u601d\u60f3\u3002",
+        "description_en": "Published in CSSCI journal (IF 11.481), reviewing Herman Daly's steady-state economics thought."
+      },
+      {
+        "name_zh": "\u793e\u533a\u5fae\u66f4\u65b0\u5171\u521b",
+        "name_en": "Community Micro-Renewal Co-Creation",
+        "description_zh": "\u53d1\u8868\u4e8e Habitat International\uff08SSCI IF 7.0\uff09\uff0c\u7814\u7a76\u793e\u533a\u5fae\u66f4\u65b0\u4e2d\u7684\u5171\u521b\u8bbe\u8ba1\u65b9\u6cd5\u3002",
+        "description_en": "Published in Habitat International (SSCI IF 7.0), studying co-creation design methods in community micro-renewal."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "\u53ef\u6301\u7eed\u601d\u7ef4",
+        "name_en": "Sustainable Thinking",
+        "description_zh": "\u57f9\u517b\u53ef\u6301\u7eed\u53d1\u5c55\u7684\u601d\u7ef4\u65b9\u5f0f\u548c\u8bbe\u8ba1\u7406\u5ff5\u3002",
+        "description_en": "Cultivating ways of thinking and design concepts for sustainable development."
+      },
+      {
+        "name_zh": "\u53ef\u6301\u7eed\u53d1\u5c55\u7406\u8bba\u4e0e\u7814\u7a76\u65b9\u6cd5",
+        "name_en": "Sustainable Development Theory and Research Methods",
+        "description_zh": "\u7cfb\u7edf\u4ecb\u7ecd\u53ef\u6301\u7eed\u53d1\u5c55\u7684\u6838\u5fc3\u7406\u8bba\u4e0e\u7814\u7a76\u65b9\u6cd5\u3002",
+        "description_en": "Systematic introduction to core theories and research methods of sustainable development."
+      },
+      {
+        "name_zh": "\u53ef\u6301\u7eed\u53d1\u5c55\u7ecf\u6d4e\u5b66\u524d\u6cbf\u7814\u7a76",
+        "name_en": "Frontier Research in Sustainable Development Economics",
+        "description_zh": "\u63a2\u8ba8\u53ef\u6301\u7eed\u53d1\u5c55\u7ecf\u6d4e\u5b66\u7684\u524d\u6cbf\u8bdd\u9898\u3002",
+        "description_en": "Exploring frontier topics in sustainable development economics."
+      },
+      {
+        "name_zh": "\u8d44\u6e90\u73af\u5883\u7ecf\u6d4e\u5b66",
+        "name_en": "Resource and Environmental Economics",
+        "description_zh": "\u7814\u7a76\u8d44\u6e90\u4e0e\u73af\u5883\u7684\u7ecf\u6d4e\u5b66\u5206\u6790\u65b9\u6cd5\u3002",
+        "description_en": "Studying economic analysis methods for resources and environment."
+      },
+      {
+        "name_zh": "\u53ef\u6301\u7eed\u8bbe\u8ba1\uff1a\u601d\u7ef4\u548c\u6848\u4f8b",
+        "name_en": "Sustainable Design: Thinking and Cases",
+        "description_zh": "\u901a\u8fc7\u6848\u4f8b\u5206\u6790\u7406\u89e3\u53ef\u6301\u7eed\u8bbe\u8ba1\u7684\u601d\u7ef4\u65b9\u5f0f\u3002",
+        "description_en": "Understanding sustainable design thinking through case analysis."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "eun-ji-cho",
+    "photo": "",
+    "name_zh": "\u66f9\u6069\u667a",
+    "name_en": "Eun Ji Cho",
+    "title_zh": "\u52a9\u7406\u7814\u7a76\u5458",
+    "title_en": "Associate Research Fellow",
+    "bio_zh": "",
+    "bio_en": "PhD in Design from Politecnico di Milano, currently serving as Associate Research Fellow at Tongji University College of Design and Innovation. She is an active member of the DESIS Network, focusing on social innovation and service design. Her research explores design for vulnerable communities, including the Beyond Closed Doors project addressing hikikomori (social withdrawal) in South Korea, exhibited at the Gwangju Design Biennale. She curated the 7 Scenarios for Neighborhood of Care exhibition at Fuxin community center in 2021. She translated Ezio Manzini's influential design book into Korean, contributing to the dissemination of design-for-social-innovation knowledge in Korea.",
+    "tags": [
+      "Social Innovation",
+      "Service Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "Beyond Closed Doors \u5c45\u5b85\u5c01\u95ed\u9879\u76ee",
+        "name_en": "Beyond Closed Doors Hikikomori Project",
+        "description_zh": "\u5173\u6ce8\u97e9\u56fd\u201c\u86fe\u65cf\u201d\u73b0\u8c61\u7684\u793e\u4f1a\u521b\u65b0\u8bbe\u8ba1\u9879\u76ee\uff0c\u4e8e\u5149\u5dde\u53cc\u5e74\u5c55\u5c55\u51fa\u3002",
+        "description_en": "A social innovation design project addressing hikikomori (social withdrawal) in South Korea, exhibited at the Gwangju Design Biennale."
+      },
+      {
+        "name_zh": "7 Scenarios for Neighborhood of Care \u5c55\u89c8",
+        "name_en": "7 Scenarios for Neighborhood of Care Exhibition",
+        "description_zh": "2021\u5e74\u5728\u5bcc\u946b\u793e\u533a\u4e2d\u5fc3\u7b56\u5c55\u7684\u201c\u5173\u6000\u90bb\u91cc\u7684\u4e03\u4e2a\u573a\u666f\u201d\u5c55\u89c8\u3002",
+        "description_en": "Curated the 7 Scenarios for Neighborhood of Care exhibition at Fuxin community center in 2021."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "\u670d\u52a1\u8bbe\u8ba1\uff1a\u65b9\u6cd5\u4e0e\u5de5\u5177",
+        "name_en": "Service Design: Methods and Tools",
+        "description_zh": "\u4ecb\u7ecd\u670d\u52a1\u8bbe\u8ba1\u7684\u6838\u5fc3\u65b9\u6cd5\u8bba\u548c\u5b9e\u8df5\u5de5\u5177\u3002",
+        "description_en": "Introduction to core methodologies and practical tools of service design."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "zhu-xiaocun",
+    "photo": "images/photo-zhu-xiaocun.webp",
+    "name_zh": "\u6731\u5c0f\u6751",
+    "name_en": "Zhu Xiaocun",
+    "title_zh": "\u526f\u6559\u6388",
+    "title_en": "Associate Professor",
+    "bio_zh": "\u4e1c\u5357\u5927\u5b66\u5efa\u7b51\u5b66\u80cc\u666f\uff0c\u54c8\u4f5b\u5927\u5b66\u8bbe\u8ba1\u7814\u7a76\u751f\u9662\uff08GSD\uff09\u8bbf\u95ee\u5b66\u8005\u3002\u4e8e2002\u5e74\u52a0\u5165\u540c\u6d4e\u5927\u5b66\u8bbe\u8ba1\u521b\u610f\u5b66\u9662\uff0c\u73b0\u4e3b\u8981\u4ece\u4e8b\u53ef\u6301\u7eed\u8bbe\u8ba1\u4e0e\u73af\u5883\u8bbe\u8ba1\u6559\u5b66\u4e0e\u7814\u7a76\u3002\u63d0\u51fa\u4ece\u201c\u51cf\u5c11\u4f24\u5bb3\u201d\u5230\u201c\u66f4\u591a\u5584\u610f\u201d\u7684\u8bbe\u8ba1\u8def\u5f84\uff0c\u5173\u6ce8\u57ce\u5e02\u53ef\u6301\u7eed\u53d1\u5c55\u4e0e\u4eba\u5c45\u73af\u5883\u8bbe\u8ba1\u3002",
+    "bio_en": "Background in Architecture from Southeast University and a visiting scholar at Harvard Graduate School of Design (GSD). Joined the College of Design and Innovation, Tongji University in 2002, focusing on sustainable design and environmental design teaching and research. Proposed a design approach from reducing harm to creating more goodness, with a focus on urban sustainable development and human settlement environmental design.",
+    "tags": [
+      "Sustainable Design",
+      "Urban Planning",
+      "Environmental Design"
+    ],
+    "achievements": [],
+    "courses": [
+      {
+        "name_zh": "\u53ef\u6301\u7eed\u8bbe\u8ba1\u7406\u5ff5",
+        "name_en": "Sustainability Consciousness",
+        "description_zh": "\u57f9\u517b\u5b66\u751f\u5bf9\u53ef\u6301\u7eed\u8bbe\u8ba1\u7684\u57fa\u672c\u8ba4\u77e5\u4e0e\u7406\u5ff5\u3002",
+        "description_en": "Cultivating students' fundamental awareness and concepts of sustainable design."
+      },
+      {
+        "name_zh": "\u53ef\u6301\u7eed\uff08\u518d\u751f\uff09\u8bbe\u8ba1",
+        "name_en": "Regenerative Design for Sustainability",
+        "description_zh": "\u63a2\u7d22\u518d\u751f\u8bbe\u8ba1\u7684\u7406\u8bba\u4e0e\u5b9e\u8df5\u65b9\u6cd5\u3002",
+        "description_en": "Exploring theory and practice methods of regenerative design."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "wu-duan",
+    "photo": "",
+    "name_zh": "\u5434\u7aef",
+    "name_en": "Wu Duan",
+    "title_zh": "\u6559\u6388\u3001\u535a\u58eb\u751f\u5bfc\u5e08",
+    "title_en": "Professor, PhD Supervisor",
+    "bio_zh": "\u540c\u6d4e\u5927\u5b66\u8bbe\u8ba1\u521b\u610f\u5b66\u9662\u6559\u6388\u3001\u535a\u58eb\u751f\u5bfc\u5e08\u3002\u5177\u6709\u5de5\u4e1a\u8bbe\u8ba1\u3001\u89c6\u89c9\u4f20\u8fbe\u548c\u5efa\u7b51\u8bbe\u8ba1\u591a\u5143\u5b66\u672f\u80cc\u666f\u3002SEGD\uff08\u73af\u5883\u56fe\u5f62\u8bbe\u8ba1\u534f\u4f1a\uff09\u4e0a\u6d77\u5206\u4f1a\u8d1f\u8d23\u4eba\uff0c\u540c\u65f6\u8fd0\u8425\u516c\u5171\u521b\u65b0\u5b9e\u9a8c\u5ba4\u3002\u62c5\u4efb2022\u5e74\u4e16\u754c\u8bbe\u8ba1\u4e4b\u90fd\u5927\u4f1a\u7b56\u5c55\u4eba\u3002\u7814\u7a76\u65b9\u5411\u5305\u62ec\u73af\u5883\u8bbe\u8ba1\u3001\u5305\u5bb9\u6027\u8bbe\u8ba1\u4e0e\u793e\u4f1a\u521b\u65b0\u3002",
+    "bio_en": "Professor and PhD Supervisor at the College of Design and Innovation, Tongji University. He holds a multidisciplinary academic background spanning industrial design, visual communication, and architectural design. He is the head of SEGD (Society for Experiential Graphic Design) Shanghai Chapter and operates a Public Innovation Lab. He served as the curator for the 2022 World Design Cities Conference. His research interests include environmental design, inclusive design, and social innovation.",
+    "tags": [
+      "Environmental Design",
+      "Social Innovation",
+      "Sustainable Design",
+      "Inclusive Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "SEGD\u4e0a\u6d77\u5206\u4f1a\u53ca\u516c\u5171\u521b\u65b0\u5b9e\u9a8c\u5ba4",
+        "name_en": "SEGD Shanghai Chapter and Public Innovation Lab",
+        "description_zh": "\u62c5\u4efbSEGD\uff08\u73af\u5883\u56fe\u5f62\u8bbe\u8ba1\u534f\u4f1a\uff09\u4e0a\u6d77\u5206\u4f1a\u8d1f\u8d23\u4eba\uff0c\u8fd0\u8425\u516c\u5171\u521b\u65b0\u5b9e\u9a8c\u5ba4\u3002",
+        "description_en": "Head of SEGD Shanghai Chapter and operates a Public Innovation Lab."
+      },
+      {
+        "name_zh": "2022\u4e16\u754c\u8bbe\u8ba1\u4e4b\u90fd\u5927\u4f1a\u7b56\u5c55\u4eba",
+        "name_en": "2022 World Design Cities Conference Curator",
+        "description_zh": "\u62c5\u4efb2022\u5e74\u4e16\u754c\u8bbe\u8ba1\u4e4b\u90fd\u5927\u4f1a\u7b56\u5c55\u4eba\u3002",
+        "description_en": "Served as the curator for the 2022 World Design Cities Conference."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "\u4e13\u4e1a\u8bbe\u8ba11\uff1a\u73af\u5883\u4e2d\u7684\u7b26\u53f7",
+        "name_en": "Studio 1: Advanced Environmental Design",
+        "description_zh": "\u5173\u6ce8\u73af\u5883\u7a7a\u95f4\u4e2d\u7b26\u53f7\u7cfb\u7edf\u7684\u8bbe\u8ba1\u8bfe\u7a0b\u3002",
+        "description_en": "A design studio focusing on sign systems in environmental space."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "saverio-silli",
+    "photo": "images/photo-saverio-silli.webp",
+    "name_zh": "Saverio Silli",
+    "name_en": "Saverio Silli",
+    "title_zh": "\u8bbe\u8ba1\u5b9e\u8df5\u526f\u6559\u6388",
+    "title_en": "Associate Professor of Design Practice",
+    "bio_zh": "",
+    "bio_en": "Associate Professor of Design Practice and Vice Director of FabLab Shanghai at Tongji University College of Design and Innovation. Originally from Italy, he is a key figure in the global maker movement. He graduated from MIT Fab Academy and has been actively promoting digital fabrication, open-source hardware, and maker education. His Whatchamacallit methodology explores the intersection of design and making. His paper PCB for Designers received the Best Paper award at FAB23. His research bridges ecology, more-than-human design, and digital fabrication.",
+    "tags": [
+      "Ecology",
+      "More-than-Human",
+      "Digital Fabrication"
+    ],
+    "achievements": [
+      {
+        "name_zh": "Whatchamacallit \u65b9\u6cd5\u8bba",
+        "name_en": "Whatchamacallit Methodology",
+        "description_zh": "\u63a2\u7d22\u8bbe\u8ba1\u4e0e\u5236\u9020\u4ea4\u53c9\u9886\u57df\u7684\u521b\u65b0\u65b9\u6cd5\u8bba\u3002",
+        "description_en": "An innovative methodology exploring the intersection of design and making."
+      },
+      {
+        "name_zh": "PCB for Designers",
+        "name_en": "PCB for Designers (FAB23 Best Paper)",
+        "description_zh": "\u5728FAB23\u5927\u4f1a\u4e0a\u83b7\u5f97\u6700\u4f73\u8bba\u6587\u5956\u3002",
+        "description_en": "Awarded Best Paper at FAB23 conference."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "\u5f00\u6e90\u786c\u4ef6\u4e0e\u7f16\u7a0b",
+        "name_en": "Open Source Hardware and Programming",
+        "description_zh": "\u6559\u6388\u5f00\u6e90\u786c\u4ef6\u539f\u7406\u4e0e\u7f16\u7a0b\u5b9e\u8df5\u3002",
+        "description_en": "Teaching open source hardware principles and programming practice."
+      },
+      {
+        "name_zh": "PCB for Designers",
+        "name_en": "PCB for Designers",
+        "description_zh": "\u4e3a\u8bbe\u8ba1\u5e08\u8bb2\u89e3PCB\u8bbe\u8ba1\u4e0e\u5236\u4f5c\u3002",
+        "description_en": "Teaching PCB design and fabrication for designers."
+      },
+      {
+        "name_zh": "\u57ce\u5e02\u81ea\u7136\u4e0e\u5236\u9020",
+        "name_en": "Urban Nature and Fabrication",
+        "description_zh": "\u63a2\u7d22\u57ce\u5e02\u81ea\u7136\u4e0e\u6570\u5b57\u5236\u9020\u7684\u7ed3\u5408\u3002",
+        "description_en": "Exploring the intersection of urban nature and digital fabrication."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "jarmo-suominen",
+    "photo": "images/photo-jarmo-ilmari-suominen.webp",
+    "name_zh": "Jarmo Ilmari Suominen",
+    "name_en": "Jarmo Ilmari Suominen",
+    "title_zh": "\u6559\u6388",
+    "title_en": "Professor",
+    "bio_zh": "",
+    "bio_en": "Professor at the College of Design and Innovation, Tongji University, originally from Finland. With a background from Aalto University, he brings extensive experience in environmental design, service design, and human-AI-robot collaboration. He developed the Space-Activity-Value framework for analyzing and designing spatial experiences. His School as a Service concept has been widely adopted in Finnish educational architecture. He co-founded Spacent, a platform for distributed workplace solutions, and co-leads the MIT Tongji City Science Lab. His teaching focuses on environmental design studios, service architecture workshops, and hybrid creativity workshops.",
+    "tags": [
+      "Environmental Design",
+      "Service Design",
+      "Human-AI-Robot Collaboration"
+    ],
+    "achievements": [
+      {
+        "name_zh": "School as a Service",
+        "name_en": "School as a Service",
+        "description_zh": "\u5c06\u6559\u80b2\u7a7a\u95f4\u4f5c\u4e3a\u670d\u52a1\u8fdb\u884c\u8bbe\u8ba1\u7684\u7406\u5ff5\uff0c\u5e7f\u6cdb\u5e94\u7528\u4e8e\u82ac\u5170\u6559\u80b2\u5efa\u7b51\u3002",
+        "description_en": "A concept of designing educational spaces as services, widely adopted in Finnish educational architecture."
+      },
+      {
+        "name_zh": "Spacent",
+        "name_en": "Spacent Distributed Workplace Platform",
+        "description_zh": "\u5171\u540c\u521b\u7acb\u7684\u5206\u5e03\u5f0f\u5de5\u4f5c\u573a\u89e3\u51b3\u65b9\u6848\u5e73\u53f0\u3002",
+        "description_en": "Co-founded a platform for distributed workplace solutions."
+      },
+      {
+        "name_zh": "MIT Tongji City Science Lab",
+        "name_en": "MIT Tongji City Science Lab",
+        "description_zh": "\u5171\u540c\u9886\u5bfcMIT\u540c\u6d4e\u57ce\u5e02\u79d1\u5b66\u5b9e\u9a8c\u5ba4\u3002",
+        "description_en": "Co-leads the MIT Tongji City Science Lab."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "",
+        "name_en": "Environmental Design Studio 1",
+        "description_zh": "",
+        "description_en": "Studio course focusing on advanced environmental design projects."
+      },
+      {
+        "name_zh": "",
+        "name_en": "Service Architecture Workshops",
+        "description_zh": "",
+        "description_en": "Workshops exploring the intersection of service design and spatial architecture."
+      },
+      {
+        "name_zh": "",
+        "name_en": "Hybrid Creativity Workshops",
+        "description_zh": "",
+        "description_en": "Workshops exploring hybrid creativity in design practice."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/school-as-a-service-demonstrat.webp",
+        "caption_zh": "",
+        "caption_en": "School as a Service demonstration project"
+      },
+      {
+        "src": "images/spacent-distributed-workplac.webp",
+        "caption_zh": "",
+        "caption_en": "Spacent distributed workplace solution"
+      },
+      {
+        "src": "images/tongjimit-city-science-lab.webp",
+        "caption_zh": "",
+        "caption_en": "MIT Tongji City Science Lab"
+      },
+      {
+        "src": "images/collaborative-mural-project-wi.webp",
+        "caption_zh": "",
+        "caption_en": "Collaborative mural project with students"
+      }
+    ]
+  },
+  {
+    "id": "qingfan-an",
+    "photo": "",
+    "name_zh": "\u5b89\u6e05\u7e41",
+    "name_en": "Qingfan An",
+    "title_zh": "\u739b\u4e3d\u5c45\u91cc\u5b66\u8005",
+    "title_en": "Marie Sk\u0142odowska-Curie Fellow",
+    "bio_zh": "\u6b27\u76df\u739b\u4e3d\u00b7\u5c45\u91cc\u5b66\u8005\uff08Marie Sk\u0142odowska-Curie Fellow\uff09\uff0c\u540c\u6d4e\u5927\u5b66\u8bbe\u8ba1\u521b\u610f\u5b66\u9662\u7814\u7a76\u5458\u3002\u53c2\u4e0eHealth CASCADE\u9879\u76ee\uff0c\u4e13\u6ce8\u4e8e\u7cfb\u7edf\u8bbe\u8ba1\u4e0e\u533b\u7597\u536b\u751f\u9886\u57df\u3002\u5728Design Studies\uff082025\uff09\u53d1\u8868\u5173\u4e8e\u8fc7\u6e21\u8bbe\u8ba1\u6a21\u578b\u7684\u8bba\u6587\uff0c\u5728CoDesign\uff082025\uff09\u53d1\u8868\u5173\u4e8e\u533b\u7597\u65b9\u6848\u751f\u6001\u65b9\u6cd5\u7684\u8bba\u6587\u3002\u7814\u7a76\u5174\u8da3\u5305\u62ec\u8fc7\u6e21\u8bbe\u8ba1\u3001\u7cfb\u7edf\u601d\u7ef4\u548c\u5065\u5eb7\u521b\u65b0\u3002",
+    "bio_en": "",
+    "tags": [
+      "Systemic Design",
+      "Healthcare Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "\u8fc7\u6e21\u8bbe\u8ba1\u6a21\u578b",
+        "name_en": "Transition Design Model",
+        "description_zh": "\u53d1\u8868\u4e8e Design Studies\uff082025\uff09\uff0c\u63d0\u51fa\u8fc7\u6e21\u8bbe\u8ba1\u7684\u65b0\u6a21\u578b\u3002",
+        "description_en": "Published in Design Studies (2025), proposing a new transition design model."
+      },
+      {
+        "name_zh": "\u533b\u7597\u65b9\u6848\u7684\u751f\u6001\u65b9\u6cd5",
+        "name_en": "Ecological Approach to Healthcare Solutions",
+        "description_zh": "\u53d1\u8868\u4e8e CoDesign\uff082025\uff09\uff0c\u63d0\u51fa\u533b\u7597\u65b9\u6848\u8bbe\u8ba1\u7684\u751f\u6001\u7cfb\u7edf\u65b9\u6cd5\u3002",
+        "description_en": "Published in CoDesign (2025), proposing an ecological systems approach to healthcare solution design."
+      }
+    ],
+    "courses": [],
+    "gallery": [
+      {
+        "src": "images/faculty-6656.webp",
+        "caption_zh": "\u5b89\u6e05\u7e41\u5de5\u4f5c\u7167",
+        "caption_en": ""
+      },
+      {
+        "src": "images/faculty-6146.webp",
+        "caption_zh": "\u5b89\u6e05\u7e41\u5de5\u4f5c\u573a\u666f",
+        "caption_en": ""
+      },
+      {
+        "src": "images/faculty-9249.webp",
+        "caption_zh": "\u5b89\u6e05\u7e41\u5b66\u672f\u6d3b\u52a8",
+        "caption_en": ""
+      },
+      {
+        "src": "images/faculty-6100.webp",
+        "caption_zh": "\u5b89\u6e05\u7e41\u7814\u7a76\u9879\u76ee",
+        "caption_en": ""
+      }
+    ]
+  },
+  {
+    "id": "tao-simin",
+    "photo": "images/photo-simin-tao.webp",
+    "name_zh": "\u9676\u601d\u65fb",
+    "name_en": "Simin Tao",
+    "title_zh": "\u526f\u6559\u6388\u3001\u535a\u58eb\u751f\u5bfc\u5e08",
+    "title_en": "Associate Professor, PhD Supervisor",
+    "bio_zh": "\u5efa\u7b51\u5b66\u535a\u58eb\uff0c\u540c\u6d4e\u5927\u5b66\u8bbe\u8ba1\u521b\u610f\u5b66\u9662\u526f\u6559\u6388\u3001\u535a\u58eb\u751f\u5bfc\u5e08\u3002\u4e3b\u8981\u7814\u7a76\u65b9\u5411\u5305\u62ec\u53ef\u6301\u7eed\u8bbe\u8ba1\u3001\u751f\u6001\u8bbe\u8ba1\u3001\u751f\u7269\u58f0\u5b66\u4e0e\u58f0\u97f3\u8bbe\u8ba1\u3002SUSTAIN X\u9879\u76ee\u8d1f\u8d23\u4eba\uff0cCETA\u9879\u76ee\u53c2\u4e0e\u8005\uff0cDEDESIS\u5b9e\u9a8c\u5ba4\u6210\u5458\uff0cSoundlab\u8d1f\u8d23\u4eba\u3002\u7814\u7a76\u5174\u8da3\u6db5\u76d6\u70ed\u529b\u5b66\u89c6\u89d2\u4e0b\u7684\u5efa\u7b51\u539f\u578b\u8bbe\u8ba1\u3001\u73af\u5883\u58f0\u5b66\u3001\u4ee5\u53ca\u7cfb\u7edf\u6027\u8bbe\u8ba1\u65b9\u6cd5\u3002",
+    "bio_en": "PhD in Architecture, Associate Professor and PhD Supervisor at the College of Design and Innovation, Tongji University. Her main research interests include sustainable design, ecological design, bioacoustics, and sound design. She leads the SUSTAIN X project, participates in CETA, is a member of the DESIS Lab, and directs Soundlab. Her research covers building prototype design from a thermodynamic perspective, environmental acoustics, and systemic design methods.",
+    "tags": [
+      "Sustainable Design",
+      "Social Innovation",
+      "Systemic Design",
+      "Ecology",
+      "Bio-Acoustics",
+      "Environmental Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "\u300a\u70ed\u529b\u5b66\u89c6\u89d2\u4e0b\u6c14\u5019\u5efa\u7b51\u539f\u578b\u65b9\u6cd5\u7814\u7a76\u300b\u4e13\u8457",
+        "name_en": "Research on Climate Building Prototype Methods from a Thermodynamic Perspective (Book)",
+        "description_zh": "\u4ece\u70ed\u529b\u5b66\u89c6\u89d2\u7814\u7a76\u6c14\u5019\u5efa\u7b51\u539f\u578b\u65b9\u6cd5\u7684\u4e13\u8457\u3002",
+        "description_en": "A monograph studying climate building prototype methods from a thermodynamic perspective."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "\u4e13\u4e1a\u8bbe\u8ba13\uff1a\u73af\u5883\u4f5c\u4e3a\u7cfb\u7edf",
+        "name_en": "Studio 3: Environment as System",
+        "description_zh": "\u5c06\u73af\u5883\u7406\u89e3\u4e3a\u590d\u6742\u7cfb\u7edf\u7684\u8bbe\u8ba1\u8bfe\u7a0b\u3002",
+        "description_en": "A design studio understanding environment as a complex system."
+      },
+      {
+        "name_zh": "\u8bbe\u8ba1\u6570\u636e\u5206\u6790\u57fa\u7840",
+        "name_en": "Fundamentals of Design Data Analysis",
+        "description_zh": "\u6559\u6388\u8bbe\u8ba1\u7814\u7a76\u4e2d\u6570\u636e\u5206\u6790\u7684\u57fa\u672c\u65b9\u6cd5\u3002",
+        "description_en": "Teaching fundamental data analysis methods in design research."
+      },
+      {
+        "name_zh": "\u58f0\u97f3\u8bbe\u8ba1",
+        "name_en": "Sound Design",
+        "description_zh": "\u63a2\u7d22\u58f0\u97f3\u5728\u8bbe\u8ba1\u4e2d\u7684\u5e94\u7528\u4e0e\u521b\u4f5c\u65b9\u6cd5\u3002",
+        "description_en": "Exploring the application and creative methods of sound in design."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/faculty-7518.webp",
+        "caption_zh": "\u9676\u601d\u65fb\u5de5\u4f5c\u7167",
+        "caption_en": ""
+      },
+      {
+        "src": "images/faculty-1887.webp",
+        "caption_zh": "\u9676\u601d\u65fb\u5de5\u4f5c\u573a\u666f",
+        "caption_en": ""
+      },
+      {
+        "src": "images/dive-in.webp",
+        "caption_zh": "Dive In \u9879\u76ee",
+        "caption_en": ""
+      },
+      {
+        "src": "images/faculty-2097.webp",
+        "caption_zh": "\u9676\u601d\u65fb\u5b66\u672f\u6d3b\u52a8",
+        "caption_en": ""
+      },
+      {
+        "src": "images/faculty-2461.webp",
+        "caption_zh": "\u9676\u601d\u65fb\u58f0\u97f3\u8bbe\u8ba1\u5de5\u4f5c\u574a",
+        "caption_en": ""
+      }
+    ]
+  },
+  {
+    "id": "hyejin-lee",
+    "photo": "",
+    "name_zh": "\u674e\u60e0\u73cd",
+    "name_en": "Hyejin Lee",
+    "title_zh": "\u5b9e\u8df5\u526f\u6559\u6388",
+    "title_en": "Associate Professor of Practice",
+    "bio_zh": "",
+    "bio_en": "Associate Professor of Practice at the College of Design and Innovation, Tongji University. She is the founder of THE MEME consultancy, working with clients including Microsoft, iRobot, and Samsung. She founded the 2nd NICE, a sustainable living organization. She holds a BFA from Seoul National University (SNU) and an MDes from Harvard Graduate School of Design. Her teaching and research focus on design-driven social entrepreneurship and sustainable design.",
+    "tags": [
+      "Social Innovation",
+      "Design Entrepreneurship",
+      "Sustainable Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "2nd NICE \u53ef\u6301\u7eed\u751f\u6d3b\u7ec4\u7ec7",
+        "name_en": "2nd NICE Sustainable Living Organization",
+        "description_zh": "\u521b\u7acb\u7684\u53ef\u6301\u7eed\u751f\u6d3b\u65b9\u5f0f\u7ec4\u7ec7\u3002",
+        "description_en": "Founded organization promoting sustainable living practices."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "\u8bbe\u8ba1\u9a71\u52a8\u7684\u793e\u4f1a\u521b\u4e1a",
+        "name_en": "Design-Driven Social Entrepreneurship",
+        "description_zh": "\u63a2\u8ba8\u8bbe\u8ba1\u5982\u4f55\u9a71\u52a8\u793e\u4f1a\u521b\u4e1a\u4e0e\u53ef\u6301\u7eed\u53d1\u5c55\u3002",
+        "description_en": "Exploring how design drives social entrepreneurship and sustainable development."
+      }
+    ],
+    "gallery": []
+  }
+]

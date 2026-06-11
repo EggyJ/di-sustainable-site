@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D&I | Faculty</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="logo-text">D&I</div>
+    <div class="logo-sub">Tongji University</div>
+  </a>
+  <div class="nav-right">
+    <div class="lang-toggle" id="lang-toggle">
+      <span class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中</span>
+      <span class="lang-btn" data-lang="en" onclick="setLang('en')">EN</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html" data-page="home" data-t="nav_home">Home</a>
+      <a href="projects.html" data-page="projects" data-t="nav_projects">Projects</a>
+      <a href="faculty.html" data-page="faculty" data-t="nav_faculty">Faculty</a>
+      <a href="courses.html" data-page="courses" data-t="nav_courses">Courses</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <h1 data-lang-zh="教师团队" data-lang-en="Faculty"></h1>
+  <div class="page-subtitle" data-lang-zh="在可持续设计与社会创新领域深耕的研究者与实践者" data-lang-en="Researchers and practitioners advancing sustainable design and social innovation"></div>
+</div>
+
+<div class="section">
+  <div class="section-header">
+    <h2><span class="color-dot"></span> <span data-lang-zh="全部教师" data-lang-en="All Faculty"></span></h2>
+    <span class="count" id="faculty-count"></span>
+  </div>
+  <div class="faculty-grid" id="faculty-grid"></div>
+</div>
+
+<div class="detail-overlay" id="detail-overlay">
+  <button class="detail-close" onclick="closeDetail()">&times;</button>
+  <div class="detail-content" id="detail-content"></div>
+</div>
+
+<div class="footer">
+  <span class="brand">D&I Tongji</span>
+  <span>College of Design & Innovation, Tongji University</span>
+  <a href="#">Sustainable Design &times; Social Innovation</a>
+</div>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+<script>
+/* ─── Faculty Page ─── */
+function renderPage(){
+  const data = getData();
+  document.getElementById('faculty-count').textContent = data.length + T('members_suffix');
+  const grid = document.getElementById('faculty-grid');
+
+  if(!data.length){
+    grid.innerHTML = `<div class="empty-state"><div class="icon">+</div><h3>${T('no_faculty')}</h3></div>`;
+    return;
+  }
+
+  grid.innerHTML = data.map(f=>{
+    const name = f.name_zh || f.name_en || T('untitled');
+    const title = __LANG==='zh' ? (f.title_zh||f.title_en) : (f.title_en||f.title_zh);
+    return `<div class="faculty-card" onclick="openDetail('${f.id}')">
+      <div class="card-img">
+        ${f.photo ? `<img src="${f.photo}" alt="${esc(name)}">` : `<div class="placeholder">${getInitials(name)}</div>`}
+      </div>
+      <div class="card-overlay">
+        <div class="card-label">${T('label_faculty')}</div>
+        <div class="card-title">${esc(name)}</div>
+        <div class="card-subtitle">${esc(title)||''}</div>
+        <div class="tags">${(f.tags||[]).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Auto-open detail if ?detail=xxx in URL
+  const params = new URLSearchParams(window.location.search);
+  const detailId = params.get('detail');
+  if(detailId) openDetail(detailId);
+}
+
+setActiveNav('faculty');
+renderPage();
+</script>
+</body>
+</html>

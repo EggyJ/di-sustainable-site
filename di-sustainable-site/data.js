@@ -1,115 +1,1056 @@
 window.__SITE_DATA__ = [
   {
     "id": "francesca-valsecchi",
-    "name": "Francesca Valsecchi 魏佛兰",
-    "title": "Associate Professor / 副教授",
-    "photo": "",
-    "bio": "Francesca Valsecchi 魏佛兰 (PhD) is Associate Professor at College of Design and Innovation, Tongji University. From participatory design research to immersive artistic practice, her work looks at developing the “green sense” as the next liminal space of human perception and cognition. She established the Ecology and Cultures Innovation Lab to discuss and experiment on more-than-human design and the challenges of post-development paradigms. Her researches include published, speculative and exhibition works about mapping ecosystems, ethnography of waterscapes, ecological data, and urban-nature interaction, and social design. She is Italian, but has been in Asia for more than a decade. Her teaching and research projects cover the areas of Design and Nature, Rural-Urban Innovation, Sustainable Food Systems, and Design for Ecosystems. She is an expert in creativity and visualization methods and participatory techniques. She also has an ongoing artistic practice using alternative photographic processes and bio-media, and is an environmental activist.",
+    "name_zh": "魏佛兰",
+    "name_en": "Francesca Valsecchi",
+    "title_zh": "副教授",
+    "title_en": "Associate Professor",
+    "photo": "images/photo-francesca-valsecchi.webp",
+    "bio_zh": "魏佛兰博士，现任同济大学设计创意学院副教授。从参与式设计研究到沉浸式艺术实践，魏佛兰副教授的工作致力于探索“绿色感知（green sense）作为人类感知与认知下一种临界空间的发展方向。她现于上海同济大学设计创意学院开展教学与研究工作，并创立了“生态与文化创新实验室（Ecology and Cultures Innovation Lab）”，以讨论和实验“超越人类中心（more-than-human）”的设计方法，以及后发展（post-development）范式所面临的挑战。\n她的研究涵盖已发表研究、 speculative design（思辨设计）及展览实践，主题包括生态系统制图、水域景观民族志、生态数据、城市与自然互动，以及社会设计等。她来自意大利，但已在亚洲生活和工作超过十年。她的教学与研究项目涉及“设计与自然”“城乡创新”“可持续食物系统”，以及近年来进一步拓展的“生态系统设计（Design for Ecosystems）”方向。她在创造力方法、可视化方法以及参与式技术方面具有丰富经验，并广泛应用于涉及公众与社区的艺术及研究项目中。\n同时，她持续进行以替代摄影工艺（alternative photographic processes）与生物媒介（bio-media）为核心的艺术实践，并积极参与环境行动主义。\n",
+    "bio_en": "Francesca Valsecchi  (PhD) is Associate Professor at College of Design and Innovation, Tongji University. \nFrom participatory design research to immersive artistic practice, the work of Associate Professor Francesca Valsecchi looks at developing the “green sense” as the next liminal space of human perception and cognition. She works in Shanghai at Tongji University, College of Design and Innovation. She established the Ecology and Cultures Innovation Lab to discuss and experiment on more-than-human design and the challenges of post-development paradigms.  Researches include published, speculative and exhibition works about mapping ecosystems, ethnography of waterscapes, ecological data, and urban-nature interaction, and social design. She is Italian, but she has been in Asia for more than a decade. Her teaching and research projects cover the areas of Design and Nature, Rural-Urban Innovation, Sustainable Food Systems, and more recently in the direction of Design for Ecosystems. She is an expert in creativity and visualization methods and participatory techniques, which she applied largely in artistic and research projects involving citizens and communities. \nShe has an ongoing artistic practice using alternative photographic processes and bio-media. She is an environmental activist.\n",
     "tags": [
-      "Sustainable Design",
-      "Social Innovation",
-      "Ecology",
+      "Systemic Design",
       "Participatory Design",
-      "More-than-Human Design",
-      "Ecosystems",
-      "Bio-Acoustics",
-      "Data Visualization"
+      "Ecology",
+      "More-than-Human"
     ],
     "achievements": [
       {
-        "name": "Poetry of the Coasts: Coastal Co-Art Residency / 海岸诗学：海岸共创艺术驻留计划",
-        "description": "A year-long project funded by British Council, supported by Tongji and Lancaster University, developing intertwined artists residencies in Chongming Island (China) and Morecambe Bay (UK). The project makes visible the entanglement and relationships across scales — from microsites of tidal life to macro-infrastructures like seawalls, drainage channels, and land reclamation boundaries — combining ecological art, participatory design, environmental humanities, and field-based observation. The project generates new forms of intercultural ecological learning between the UK and China."
+        "name_zh": "海岸诗学：海岸共创艺术驻留计划",
+        "name_en": "Poetry of the Coasts: Coastal Co-Art Residency",
+        "description_zh": "海岸生态系统是由潮汐、泥沙流动、盐度梯度、迁徙物种以及人类适应行为共同塑造的动态系统。这些变化不仅仅是科学意义上的描述，更是塑造生计方式、社会想象与政治叙事的文化力量。“海岸诗学（Poetry of the Coasts）”是一项为期一年的项目，由英国文化协会（British Council）资助，并得到同济大学与兰卡斯特大学支持。项目通过在中国崇明岛与英国莫克姆湾（Morecambe Bay）开展相互关联的艺术家驻留，发展一系列使跨尺度纠缠关系可视化的创作实践——从潮间带生命的微观场域，到海堤、排水渠道以及围垦边界等宏观基础设施。\n该项目结合生态艺术、参与式设计、环境人文学以及田野观察等跨学科方法。艺术家与研究者通过具身化场地探索、生态聆听、感官地图绘制、材料实验以及社区叙事等方式展开合作。科学知识与艺术诠释及地方经验形成对话，从而在英国与中国之间生成新的跨文化生态学习模式。",
+        "description_en": "Coastal ecologies are systems of motion shaped by tides, sediment flows, salinity gradients, migratory species, and human adaptation. These dynamics are not merely scientific descriptors but cultural forces shaping livelihoods, imaginaries, and political narratives. The poetry of the Coasts is a year long project funded by British Council and supported by Tongji and Lancaster University that develop intertwined artists residency in the coastal environment of Chongming Island (China) and Moracambe Bay (UK) to develop projects that make visible the entanglement and relationships across scales, from microsites of tidal life to macro-infrastructures like seawalls, drainage channels, and land reclamation boundaries.\nThe project combines transdisciplinary methods from ecological art, participatory design, environmental humanities, and field-based observation. Artists and researchers engage in embodied site explorations, ecological listening, sensory mapping, material experimentation, and community storytelling. Scientific knowledge is placed in dialogue with artistic interpretation and situated local experience, generating new forms of intercultural ecological learning between the UK and China."
       },
       {
-        "name": "Huanglong Acoustic Ecology Interpretation Trail / 黄龙声景生态解说步道",
-        "description": "In collaboration with CAUP, this project at Huanglong Park (UNESCO World Heritage, Sichuan, China) transforms three years of bio-acoustic monitoring data into an immersive, site-specific learning system. Eight interpretative nodes along a 220-metre elevated boardwalk enable visitors to actively engage with bird soundscapes through directional listening interfaces and synchronised visual cues, isolating, comparing, and spatially locating more than 60 species. The project bridges scientific monitoring and embodied experience, establishing a new model for bio-acoustic datasets in spatial interpretation."
+        "name_zh": "黄龙声景生态步道",
+        "name_en": "Huanglong Acoustic Ecology Interpretation Trail",
+        "description_zh": "“黄龙声景生态解说步道”项目由同济大学设计创意学院与建筑与城市规划学院（CAUP）合作开展，位于中国四川黄龙景区（联合国教科文组织世界遗产地）。项目回应了传统自然展览与生态体验中的一个核心问题：对于非专业公众而言，生物多样性往往是“不可见”且“不可听”的。\n基于长达三年的生物声学监测研究，项目将原始生态数据转化为一种沉浸式、场地特定（site-specific）的学习系统。通过沿着一条220米高架步道设置的八个生态解说节点，声音互动被直接嵌入景观环境之中。每个节点都使访客能够主动参与鸟类声景的感知：借助定向聆听装置与同步视觉提示，使用者可以对超过60种鸟类的声音进行分离、比较与空间定位。\n这种方式使公众能够实时感知生态系统的复杂性，弥合科学监测与具身体验之间的距离。项目建立了一种将生物声学数据应用于空间解说与生态传播的新模式，以增强公众对于地方生态系统的理解与认知。",
+        "description_en": "In collaboration with CAUP (College of Architecture and Urban Planning), Huanglong Acoustic Ecology Interpretation Trail (in Huanglong Park, UNESCO World Heritage, Sichuan, China) addresses a key limitation of conventional nature exhibition and experiences: biodiversity is largely invisible and inaudible to non-experts.\nBased on three years of bio-acoustic monitoring, the project transforms raw ecological data into an immersive, site-specific learning system. It embeds sound-based interaction directly into the landscape through a sequence of eight interpretative nodes along a 220-metre elevated boardwalk. Each node enables visitors to actively engage with bird soundscapes: through directional listening interfaces and synchronised visual cues, it offers the possibility of isolating, comparing, and spatially locating more than 60 species. This allows users to perceive ecological complexity in real time, bridging the gap between scientific monitoring and embodied experience. The project establishes a new model for the application of bio-acoustic datasets in spatial interpretation and communication to strengthen public understanding of local ecology."
       }
     ],
     "courses": [
       {
-        "name": "Studio 1 — Communication and Media Tools for the Narrative of Ecological Complexity (MA)",
-        "description": "Interprets Shanghai’s coast as a central character, using design research to map its visible and invisible layers. Produces ‘Provocations & Artefacts’ as research catalysts for artists-in-residence."
+        "name_zh": "Studio 1：生态复杂性叙事的传播与媒介工具",
+        "name_en": "Studio1: Communication and media tools for the narrative of ecological complexity",
+        "description_zh": "\n“Why”：为什么开展这个工作室？\n上海是一座由水塑造的超级城市，但其广阔的海岸边缘地带，对于大多数居民而言，依然是陌生且缺乏理解的空间。本工作室将海岸视为上海叙事中的核心角色，而非城市边缘。海岸并不是一条简单的边界线，而是一种“区域（zone）”——一个汇聚生态复杂性、物流强度、文化记忆与未来不确定性的场域。\n我们的任务，是成为这一临界空间（liminal space）的“制图者（cartographers）”，通过设计研究去绘制其可见与不可见的多重层次。\n“What”：我们将做什么？\n工作室将构建一个丰富的“挑衅性提案与研究物件（Provocations & Artefacts）”资料库，作为驻留艺术家的核心研究素材。你们的成果并不是一个最终设计产品，而是一种“催化剂（catalyst）”。你们所做的是为艺术家建立一个可被进入、回应与再创造的世界。",
+        "description_en": "The \"Why\": Shanghai is a megacity defined by its relationship with water, yet its vast coastal edges remain largely unknown or misunderstood by its inhabitants. This studio interprets the coast not as a periphery, but as a central character in the story of Shanghai. Coasts are zones, more than lines; sites of ecological complexity, logistical intensity, cultural memory, and future uncertainty. Our mission is to become cartographers of this liminal space, using design research to map its visible and invisible layers.\nThe \"What\": To produce a rich repository of \"Provocations & Artefacts\" that will serve as the primary research material for artists-in-residence. Your work is not a design product, but a catalyst. You are building the world that the artists will then inhabit and respond to.\n"
       },
       {
-        "name": "Data Visualisation — Visual Structures & Data Stories of Urban Ecology (MA)",
-        "description": "An intensive module exploring data visualisation through AI-augmented practices, tool benchmarking, and critical visual analysis, positioning visualisation as both research methodology and public communication artefact."
+        "name_zh": "数据可视化——城市生态的数据结构与叙事",
+        "name_en": "Data Visualisation — Visual Structures & Data Stories of Urban Ecology",
+        "description_zh": "\n\n本课程是一个聚焦数据可视化的强化教学模块，自2014年开设以来，旨在培养学生贯穿整个数据科学流程的设计能力——从数据采集到可视化制作，并建立对社会—技术数据景观（socio-technical datascapes）的批判性理解。\n面对快速变化的技术环境与能力需求，2026版课程尝试通过人工智能增强实践（AI-augmented practices）、工具基准比较（tool benchmarking）以及批判性视觉分析，重新定义数据可视化领域。课程不再仅仅关注线性的“数据处理管线（data pipelines）”，而是将可视化视为一种比较性的设计实践，以及一种研究与探 inquiry 的方法。\n课程探讨传播设计（communication design）在当代数据生态系统中的角色，尤其关注AI驱动工具如何重塑可视化的生产、解读与传播过程。课程将数据可视化置于双重维度中进行讨论：\n•\t作为一种研究方法（research methodology），支持探索、假设生成与分析性推理； \n•\t作为一种公共传播媒介（public communication artefact），塑造叙事、感知与决策过程。",
+        "description_en": "This course is an intensive module in data visualisation, launched in 2014 to develop design skills that enable interaction with the whole process of data science, from data gathering to the craft of visualisations, and grounded in a critical outlook on socio-technical datascapes. \nAdapting to the fast-changing landscape of competencies and technologies, this 2026 edition of the course experiments with reframing the field through the lens of AI-augmented practices, tool benchmarking, and critical visual analysis. Rather than focusing solely on linear data pipelines, the course positions visualisation as both a comparative design practice and a method for inquiry.\nThe module explores the role of communication design within contemporary data ecosystems, with particular attention to how AI-driven tools reshape the production, interpretation, and circulation of visualisations. Visualisation is addressed in its dual capacity:\n●\tas a research methodology, supporting exploration, hypothesis generation, and analytical reasoning\n●\tas a public communication artefact, shaping narratives, perception, and decision-making"
       },
       {
-        "name": "Studio 5 — Urban Nature (BA)",
-        "description": "Designing artefacts that support ecological literacy among city dwellers and function as ecological affordances in the Urban Ecology landscape."
+        "name_zh": "Studio 5：城市自然",
+        "name_en": "Studio 5: Urban Nature",
+        "description_zh": "\n设计能够提升城市居民生态素养的人工物（artefacts），并使其作为城市生态景观中的“生态可供性（ecological affordances）”发挥作用。",
+        "description_en": "Designing artefacts that support ecological literacy among city dwellers and function as ecological affordances in the Urban Ecology landscape"
       },
       {
-        "name": "Studio 5 — Sensing Ecology (BA)",
-        "description": "Foundational course of PCB design and programming taking inspiration from input-output mechanism of ecological metabolic system."
+        "name_zh": "Studio 5: 感知生态",
+        "name_en": "Studio 5: Sensing Ecology",
+        "description_zh": "\n\n以生态代谢系统中的输入—输出机制为灵感，开展PCB电路设计与编程基础课程。",
+        "description_en": "\nFoundational course of PCB design and programming taking inspiration from input-output mechanism of ecological metabolic system. "
       }
     ],
-    "gallery": []
+    "gallery": [
+      {
+        "src": "images/residence-artist-zhu-chen-at.webp",
+        "caption_zh": "驻留艺术家朱晨在进行关于森林与鸟类纠缠关系的创作实践",
+        "caption_en": "Residence artist (Zhu Chen) at work with the forest/birds entanglement"
+      },
+      {
+        "src": "images/tongji-students-in-a-fieldwork.webp",
+        "caption_zh": "同济大学学生与海洋地质国家重点实验室地质学家共同开展临港海岸生态系统田野调查",
+        "caption_en": "Tongji students in a fieldwork with the geologist of Tongji Marine Geology Key Laboratory to study the coastal ecosystem in Lingang"
+      },
+      {
+        "src": "images/residence-artists-exploration.webp",
+        "caption_zh": "驻留艺术家对崇明岛运河系统的探索研究",
+        "caption_en": "Residence artists' exploration of Chongming Island canals"
+      },
+      {
+        "src": "images/sample-of-the-birdscape-explor.webp",
+        "caption_zh": "鸟类声景探索交互界面示例",
+        "caption_en": "Sample of the birdscape exploration interface"
+      },
+      {
+        "src": "images/photographs-of-the-constructed.webp",
+        "caption_zh": "黄龙公园已建成鸟类声景生态步道照片",
+        "caption_en": "Photographs of the constructed birdscape trail in Huanglong Park"
+      }
+    ]
   },
   {
     "id": "wang-zisong",
-    "name": "汪滋淞",
-    "title": "Associate Professor, PhD Supervisor / 副教授、博士生导师",
-    "photo": "",
-    "bio": "汪滋淞，副教授、博士生导师，长期以来从事可持续低碳设计，在绿色校园、生态城市规划、滨水城市设计、绿色建筑设计等方面开展研究及实践工作，并取得相关成果。主持及参与多项国家级、省部级、中央高校等科研项目。目前为中国城市科学研究会绿色建筑与节能专业委员会委员，中国城科会绿色建筑与节能专业委员会绿色校园学组秘书长，中国建筑节能协会南方中心委员、同济大学绿色建筑协会理事、国际绿色校园联盟委员等。作为指导老师指导学生多次获国际城市设计及景观设计大赛多个奖项。",
+    "name_zh": "汪滋松",
+    "name_en": "Wang Zisong",
+    "title_zh": "副教授、博士生导师",
+    "title_en": "Associate Professor, PhD Supervisor",
+    "photo": "images/photo-zisong-wang.webp",
+    "bio_zh": "汪滋淞，副教授、博士生导师，长期以来从事可持续低碳设计，在绿色校园、生态城市规划、滨水城市设计、绿色建筑设计等方面开展研究及实践工作，并取得相关成果。主持及参与多项国家级、省部级、中央高校等科研项目。目前为中国城市科学研究会绿色建筑与节能专业委员会委员，中国城科会绿色建筑与节能专业委员会绿色校园学组秘书长，中国建筑节能协会南方中心委员、同济大学绿色建筑协会理事、国际绿色校园联盟委员等，作为第三编写人参与行业及国家标准《绿色校园评价标准》GB/T51356-2019编制，参编中国首部“中国绿色校园及绿色建筑节能知识”小学至大学5本系列教材，参编著作及教材十余本。作为指导老师指导学生多次获国际城市设计及景观设计大赛多个奖项，长期以来作为项目负责人完成绿色校园、城市规划、滨水城市设计、体育建筑等诸多项目，获得国家绿色建筑二星设计标识及运行标识多项。",
+    "bio_en": "Zisong Wang is an Associate Professor and Ph.D. Supervisor whose work focuses on sustainable and low-carbon design. Her research and professional practice span green campuses, ecological urban planning, waterfront urban design, and green building design. She has led and participated in numerous research projects funded at the national, ministerial, and university levels.\n\nShe currently serves as a Member of the Green Building and Energy Efficiency Committee of the Chinese Society for Urban Studies (CSUS) and as Secretary General of the Green Campus Working Group under the same committee. As a faculty advisor, she has guided students to receive multiple awards in international urban design and landscape architecture competitions. Her projects have also been recognized with numerous China Green Building Two-Star Design Labels and Operational Labels, demonstrating their achievements in sustainable performance and environmental quality.",
     "tags": [
-      "Sustainable Design",
+      "Ecology",
       "Green Campus",
       "Green Building",
-      "Urban Planning",
-      "Ecological City",
-      "Waterfront Design"
+      "Urban Planning"
     ],
     "achievements": [
       {
-        "name": "国家标准《绿色校园评价标准》GB/T 51356-2019 编制",
-        "description": "作为第三编写人参与编制国家标准《绿色校园评价标准》GB/T 51356-2019，涵盖中小学、职业学校、高校绿色校园建设评估内容，标准于2019年10月1日实施。同时作为行业标准《绿色校园评价标准》CSUS/GBC 04-2013列第三编写人及标准协调人，2013年4月1日实施。"
+        "name_zh": "《绿色校园评价标准》GB/T51356-2019 国家标准编制",
+        "name_en": "National Standard for Green Campus Evaluation",
+        "description_zh": "国家标准《绿色校园评价标准》GB/T 51356-2019涵盖中小学、职业学校、高校绿色校园建设评估内容，作为评估中国的绿色校园建设标准。标准于2019年10月1日实施。作为行业标准《绿色校园评价标准》CSUS/GBC 04 - 2013列第三编写人及标准协调人，标准 2013中国绿色校园建设标准。2013年4月1日实施，该标准涵盖中小学及高校绿色校园建设内容作为评估依据。",
+        "description_en": "The Green Campus Evaluation Standard (GB/T 51356-2019) serves as China’s national framework for assessing the development of green campuses across primary and secondary schools, vocational institutions, and universities. Implemented on October 1, 2019, the standard provides comprehensive evaluation criteria for sustainable campus planning, construction, and operation. It builds upon the earlier industry standard Green Campus Evaluation Standard (CSUS/GBC 04-2013), which came into effect on April 1, 2013 and established the first assessment framework for green campus development in China."
       },
       {
-        "name": "《绿色校园与未来》小学至大学5本系列教材参编",
-        "description": "中国首部贯穿基础教育到高等教育的绿色校园系列教材，由吴志强院士为主编，汪滋淞参编，针对不同学段设置基准主题，培养绿色可持续发展的核心价值观。2015年由中国建筑工业出版社出版，并已在上海等地开办示范课程。"
+        "name_zh": "《绿色校园与未来》教材",
+        "name_en": "Green Campus and the Future: A Five-Volume Educational Series on Green Buildings and Sustainability",
+        "description_zh": "《绿色校园与未来》（1-5册），中国首部“中国绿色校园及绿色建筑节能知识”小学至大学5本系列教材，该教材是我国首部一套贯穿基础教育到高等教育的系列教材，由吴志强院士为主编，汪滋淞副教授参编，会同国内外多个知名大中小学校长、一线教师与绿色建筑专家共同编制，针对不同学段的知识结构和教学特点设置基准主题，通过全学段知识点的层层递进辅以经典案例和主题活动，培养学生绿色可持续发展的核心价值观、绿色生态知识体系的建构以及绿色生活习惯的养成。2015年由中国建筑工业出版社正式出版，并已在上海等地开办示范课程。\n",
+        "description_en": "Green Campus and the Future (Volumes 1–5) is the first Chinese textbook series on green campuses and energy-efficient buildings spanning the entire educational spectrum from primary school to higher education. Edited by Academician Wu Zhiqiang and jointly developed by educators and green building experts from China and abroad, the series introduces age-appropriate themes, case studies, and learning activities to cultivate students’ understanding of ecological sustainability, green lifestyles, and environmental responsibility. Published by China Architecture & Building Press in 2015, the books have supported demonstration courses in Shanghai and other cities."
       },
       {
-        "name": "无锡市五爱小学雪枫分校设计 — 园冶杯金奖 & 国家二星绿建认证",
-        "description": "2021年主持设计的无锡市五爱小学雪枫分校（已建成），用地面积约33342平方米，获第十六届园冶杯国际竞赛国际建筑奖金奖，并获国家二星绿色建筑认证。"
+        "name_zh": "无锡市五爱小学雪枫分校",
+        "name_en": "Wuxi Wu’ai Primary School Xuefeng Campus",
+        "description_zh": "无锡市五爱小学雪枫分校位于无锡市梁溪区北滨路北侧、全丰路西侧，学校用地面积约33342平方米的36 班制小学，建筑面积约为33272平方米，配置各配套功能用房，包括教学用房、专用教室、图书阅览、行政用房、风雨操场、食堂、运动场地及其他附属设施等。无锡市五爱小学长期以来继承、发扬“五爱”光荣传统，把“五爱”作为立校之基、治校之本。该校获得第十六届园冶杯国际竞赛国际建筑奖 金奖、并获国家二星绿色建筑认证。",
+        "description_en": "Completed in 2021, the Wuxi Wu’ai Primary School Xuefeng Campus received the Gold Award for International Architecture at the 16th Yuan Ye Awards and achieved China Two-Star Green Building Certification. Located in Liangxi District, Wuxi, the campus occupies approximately 33,342 m² with a total floor area of about 33,272 m². Designed for 36 classes, the campus integrates teaching spaces, specialized classrooms, a library, administrative facilities, indoor sports areas, dining facilities, outdoor sports grounds, and supporting infrastructure. The project demonstrates the integration of educational values with sustainable architectural design."
       }
     ],
     "courses": [
       {
-        "name": "设计技术1（本科生）",
-        "description": "从空间形成与组织、空间形态和结构、空间的材料组织等方面，帮助学生理解可持续设计理念，在空间组织、自然要素利用与行为引导中回应生态规律，创造低负担、高适应的人居环境。"
+        "name_zh": "设计技术1",
+        "name_en": "Design Technology 1",
+        "description_zh": "从空间的形成与组织、空间形态和结构、空间的材料组织等。课程帮助学生深刻理解“可持续设计”的设计理念并了解如何应用在设计中，可持续设计是对人与环境关系的主动构建。课程引导学生在空间组织、自然要素利用与行为引导中，回应生态规律，创造低负担、高适应的人居环境，使设计兼具环境效益、使用价值与社会公平。\n",
+        "description_en": "This course introduces principles of spatial formation, structural systems, and material organization. It helps students understand sustainable design as an active process of shaping the relationship between humans and the environment. Through the study of spatial organization, natural elements, and behavioral patterns, students learn to create adaptable, low-impact environments that balance environmental performance, usability, and social equity."
       },
       {
-        "name": "设计实践研究专题2 — 协同设计（硕士生）",
-        "description": "围绕博物馆、科技馆展陈更新改造的可持续转型与科技转型，将可持续设计与交互设计深度融合，依托VR、智能交互等技术设计高适配、低更新负荷的交互叙事与空间环境。"
+        "name_zh": "设计实践研究专题2（协同设计）",
+        "name_en": "Design Practice Research Seminar 2 (Collaborative Design)",
+        "description_zh": "围绕博物馆、科技馆展陈更新改造的可持续转型于科技转型，将可持续设计与交互设计深度融合。学生依托可持续设计、虚拟现实、智能交互等技术，设计高适配、低更新负荷的交互叙事与空间环境。设计内容包括上海科技馆的自然馆的碳足迹展示设计、材料馆的可持续设计相关内容。课程关注如何通过实时反馈的科技馆的交互系统引导观众形成低碳认知与行为习惯，让每一次参观都成为一种促进人与环境良性互动的可持续设计实践。",
+        "description_en": "Focusing on the sustainable transformation of museums and science centers, this course integrates sustainable design with interaction design. Students employ virtual reality, intelligent interaction, and sustainable design strategies to develop adaptive, low-maintenance interactive narratives and spatial environments. Projects include carbon footprint exhibition design for the Natural History Museum and sustainability-related exhibitions for the Materials Museum at the Shanghai Science and Technology Museum. The course explores how real-time interactive systems can foster low-carbon awareness and encourage more sustainable relationships between people and the environment."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/zisong-wang-p1.webp",
+        "caption_zh": "《绿色校园评价标准》GB/T51356-2019 国家标准编制",
+        "caption_en": "National Standard for Green Campus Evaluation"
+      },
+      {
+        "src": "images/zisong-wang-p2.webp",
+        "caption_zh": "《绿色校园与未来》教材",
+        "caption_en": "Green Campus and the Future: A Five-Volume Educational Series on Green Buildings and Sustainability"
+      },
+      {
+        "src": "images/zisong-wang-p3.webp",
+        "caption_zh": "无锡市五爱小学雪枫分校鸟瞰图",
+        "caption_en": "Bird’s-eye View of Wuxi Wu’ai Primary School Xuefeng Campus"
+      },
+      {
+        "src": "images/zisong-wang-p4.webp",
+        "caption_zh": "无锡市五爱小学雪枫分校鸟瞰图",
+        "caption_en": "Bird’s-eye View of Wuxi Wu’ai Primary School Xuefeng Campus"
+      },
+      {
+        "src": "images/zisong-wang-p5.webp",
+        "caption_zh": "无锡市五爱小学雪枫分校内景",
+        "caption_en": "Interior View of Wuxi Wu’ai Primary School Xuefeng Campus"
+      }
+    ]
+  },
+  {
+    "id": "lou-yongqi",
+    "name_zh": "娄永琪",
+    "name_en": "Yongqi Lou",
+    "title_zh": "教授、博士生导师",
+    "title_en": "Professor, PhD Supervisor",
+    "photo": "images/photo-yongqi-lou.webp",
+    "bio_zh": "娄永琪，教授、博士生导师，现任上海工程技术大学校长，同济大学设计学科带头人。长期致力于可持续设计与社会创新设计的教学、研究与公共实践。主张设计应超越传统形式与功能范畴，进入真实世界回应生态、社会与治理的系统性挑战。他提出“设计驱动创新”理念，强调设计在系统性变革中的核心作用，推动设计从专业领域走向跨学科协同与社会治理。发起“设计丰收”（Design Harvests）项目，以参与式设计方法促进城乡互动与社区可持续发展；创建“NICE 2035”社区创新平台，联合高校、企业、政府与居民共同孵化可持续的产品、服务与系统。入选教育部“长江学者奖励计划”特聘教授，当选瑞典皇家工程科学院院士，2023年获英国皇家艺术学院荣誉博士。担任《She Ji: The Journal of Design, Economics and Innovation》执行主编。其设计实践与理论成果曾在芬兰赫尔辛基设计博物馆、意大利米兰三年展等国际机构展出，持续推动中国设计教育与社会创新实践的国际对话。同济大学复杂社会技术系统设计研究中心（SustainX）、社会创新和可持续设计实验室（Tongji DESIS）、同济大学-麻省理工学院上海城市科学实验室中心带头人。",
+    "bio_en": "Yongqi Lou is a Professor and PhD supervisor, currently serving as President of Shanghai University of Engineering Science and the disciplinary leader of Design at Tongji University. His work focuses on sustainable design and social innovation through teaching, research, and public practice. Lou advocates that design should move beyond traditional concerns with form and function to actively engage with real-world systemic challenges. He initiated the Design Harvests project and founded the NICE 2035 community innovation platform. Lou was selected as a Distinguished Professor of the Changjiang Scholars Program and elected a Fellow of the Royal Swedish Academy of Engineering Sciences. In 2023, he received an Honorary Doctorate from the Royal College of Art. He serves as Executive Editor-in-Chief of She Ji: The Journal of Design, Economics and Innovation. He leads SustainX, the Tongji DESIS Lab, and the Tongji–MIT Shanghai City Science Lab.",
+    "tags": [
+      "Sustainable Design",
+      "Social Innovation",
+      "Systemic Design",
+      "Participatory Design",
+      "Ecology"
+    ],
+    "achievements": [
+      {
+        "name_zh": "设计丰收",
+        "name_en": "Design Harvests",
+        "description_zh": "设计丰收（Design Harvests）是一个以设计驱动城乡互动与社区发展的社会创新项目。项目通过参与式设计方法，将城市创意资源与乡村传统智慧相结合，围绕农业生产、手工艺复兴与社区营造开展协同实践。通过设计介入真实场景，激活地方文化与社会网络，探索可持续的生产与生活方式，推动城乡之间形成互补共生的发展模式，并为乡村振兴与社区可持续发展提供新的设计路径与实践案例。\n",
+        "description_en": "Design Harvests is a social innovation initiative that uses design to foster interaction between urban and rural communities and support community development. Through participatory design approaches, the project connects urban creative resources with rural traditional knowledge. It focuses on collaborative practices in sustainable agriculture, craft revitalization, and community building. By introducing design into real-life contexts, the initiative activates local culture, skills, and social networks while exploring sustainable ways of production and living. Design Harvests aims to develop new models of urban–rural symbiosis and to provide practical design-driven approaches for rural revitalization and long-term community sustainability."
+      },
+      {
+        "name_zh": "NICE 2035 社区创新平台",
+        "name_en": "NICE 2035 Community Innovation Platform",
+        "description_zh": "\nNICE 2035 是一个面向未来生活方式的社区级社会创新实验平台。项目以“设计驱动创新”为核心理念，汇聚高校、企业、政府与社区居民，在真实社区场景中开展跨界协作。通过设计实验、原型孵化与公共参与，探索可持续的产品、服务与系统解决方案。平台关注城市微更新、社区治理与社会创新实践，致力于在日常生活空间中构建开放协同的创新生态，为未来城市社区的发展提供新的方法与实践路径。",
+        "description_en": "NICE 2035 is a community-based social innovation platform that explores future lifestyles through design-driven innovation. The initiative brings together universities, companies, government agencies, and local residents to collaborate within real community environments. Through design experiments, prototyping, and public participation, the platform incubates sustainable products, services, and systems. NICE 2035 focuses on urban micro-renewal, community governance, and everyday innovation practices. By creating an open and collaborative innovation ecosystem embedded in daily life, it explores new approaches to shaping future urban communities and demonstrates how design can serve as a catalyst for social innovation and sustainable urban development."
+      },
+      {
+        "name_zh": "“设计无界 生生不息”主题展",
+        "name_en": "“Design Without Boundaries, Endless Growth” Exhibition",
+        "description_zh": "“设计无界 生生不息”主题展是在世界设计之都大会框架下策划的重要展览项目。展览以设计跨越学科与行业边界为核心视角，通过多样化案例与实践，呈现设计在生态保护、社会创新与产业转型中的积极作用。展览强调设计作为连接技术、文化与社会的重要媒介，引导公众理解设计在可持续发展中的价值，并推动设计从单一产品创造走向系统性创新与社会变革。",
+        "description_en": "\n“Design Without Boundaries, Endless Growth” Exhibition was curated within the framework of the World Design Cities Conference (WDCC). The exhibition highlights how design transcends disciplinary and industrial boundaries to address ecological, social, and economic challenges. Through diverse cases and design practices, it demonstrates the role of design in environmental sustainability, social innovation, and industrial transformation. The exhibition presents design as a bridge connecting technology, culture, and society, while encouraging the public to recognize the broader value of design. It aims to promote the understanding of design not only as product creation but also as a driver of systemic innovation and societal change.\n"
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "设计发展前沿",
+        "name_en": "Design Frontier",
+        "description_zh": "《设计发展前沿》是一门面向设计专业高年级学生的专业选修课程，旨在拓展学生对设计学科前沿发展的理解，培养开放的专业视野和跨学科创新能力。课程围绕设计价值、方法与实践的最新趋势，系统介绍人本设计、开放协同设计、可持续设计、算法与参数化设计、服务与系统设计、人工智能与数据驱动设计、交互设计以及环境与场景设计等前沿领域。课程强调将全球设计发展趋势与中国社会、经济和科技的可持续发展需求相结合，通过阅读、讨论和批判性思考，帮助学生形成独立见解，提升研究能力、沟通表达能力以及面向未来的设计创新能力。",
+        "description_en": "Design Frontier is an elective course for senior undergraduate students in design, aiming to broaden their understanding of emerging developments in the discipline and cultivate an open, interdisciplinary perspective on innovation. The course explores contemporary values, methods, and practices in design, covering topics such as human-centered design, open and collaborative design, sustainable design, algorithmic and parametric design, service and systems design, AI- and data-driven design, interaction design, and environmental and scenographic design. Emphasizing the integration of global design trends with China’s social, economic, and technological challenges, the course encourages critical thinking, active discussion, and independent inquiry. Through readings, lectures, and dialogue, students develop their research capabilities, communication skills, and the capacity to formulate informed perspectives on the future of design."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/design-harvests-p1.webp",
+        "caption_zh": "设计丰收项目",
+        "caption_en": "Design Harvests"
+      },
+      {
+        "src": "images/design-harvests-p3.webp",
+        "caption_zh": "设计丰收项目",
+        "caption_en": "Design Harvests"
+      },
+      {
+        "src": "images/design-harvests-p6.webp",
+        "caption_zh": "设计丰收项目",
+        "caption_en": "Design Harvests"
+      },
+      {
+        "src": "images/nice2035-p1.webp",
+        "caption_zh": "NICE 2035 原型街",
+        "caption_en": "NICE 2035 Living Line"
+      },
+      {
+        "src": "images/nice2035-p1.webp",
+        "caption_zh": "NICE 2035 原型街",
+        "caption_en": "NICE 2035 Living Line"
+      },
+      {
+        "src": "images/nice2035-p1.webp",
+        "caption_zh": "NICE 2035 原型街",
+        "caption_en": "NICE 2035 Living Line"
+      },
+      {
+        "src": "images/wdcc-p2.webp",
+        "caption_zh": "World Design Cities Conference 2025 (WDCC2025) Theme Exhibition",
+        "caption_en": "世界设计之都大会（WDCC2025）主题展"
+      },
+      {
+        "src": "images/wdcc-p5.webp",
+        "caption_zh": "世界设计之都大会（WDCC2025）主题展",
+        "caption_en": "World Design Cities Conference 2025 (WDCC2025) Theme Exhibition"
+      }
+    ]
+  },
+  {
+    "id": "lu-wen",
+    "name_zh": "卢雯",
+    "name_en": "Lu Wen",
+    "title_zh": "助理研究员",
+    "title_en": "Associate Research Fellow",
+    "photo": "images/photo-lu-wen.webp",
+    "bio_zh": "毕业于都灵理工大学，获管理，生产与设计工学博士学位。从事基于系统设计方法的跨学科研究，研究方向涵盖可持续医疗系统、生态系统保护以及企业的创新转型等领域。在可持续医疗方面，研究聚焦于中意两国的老年人社区护理体系、可持续医疗教育与培训、以及医疗机构废弃物系统；在生态系统保护方面，研究内容包括上海长江口潮汐废物系统调查、青海长江源地区的废物与污水处理系统、野生动物多样性与栖息地保护等议题；在企业可持续创新方面，以系统设计框架，通过与不同行业的合作，致力于探索企业、社区与环境之间的良性循环关系，创造系统性价值、减少环境影响，并推动产业向可持续方向转型。",
+    "bio_en": "Graduated from Politecnico di Torino with a PhD in Management, Production and Design Engineering. Her work focuses on interdisciplinary research grounded in Systemic Design methodologies, with research interests spanning sustainable healthcare systems, ecosystem conservation, and innovation-driven transformation in enterprises.\nIn the field of sustainable healthcare, her research focuses on community-based elderly care systems in China and Italy, sustainable healthcare education and training, and healthcare waste systems. In ecosystem conservation, her work includes investigations into the tidal waste system at the Yangtze Estuary in Shanghai, waste and wastewater management systems in the Yangtze River source region of Qinghai, as well as wildlife biodiversity and habitat conservation.\nIn the area of sustainable enterprise innovation, she applies a Systemic Design framework through collaborations across different industries, seeking to foster regenerative relationships between enterprises, communities, and the environment, create systemic value, reduce environmental impacts, and support the transition towards more sustainable industrial systems.\n",
+    "tags": [
+      "Systemic Design",
+      "Ecosystem Conservation",
+      "Sustainable Healthcare",
+      "Elderly Care",
+      "Zero Waste",
+      "Ecology"
+    ],
+    "achievements": [
+      {
+        "name_zh": "长江口潮汐废物系统研究",
+        "name_en": "Systemic Research on Tidal Waste at the Yangtze Estuary",
+        "description_zh": "项目根植于上海吴淞炮台湾国家湿地公园，运用系统设计方法应对废弃物随潮汐涌入河流的挑战。在零废弃社区的建设过程中，注重包容性与社区赋权。2025年11月，该项目”获得2025年唐·诺曼设计组织奖。",
+        "description_en": "Rooted in the Wusong Paotaiwan National Wetland Park, this project applies a Systemic Design approach to address the challenge of waste being carried into the river system by tidal movements. In the process of developing zero-waste communities, the project places strong emphasis on inclusivity and community empowerment. In November 2025, the project received the 2025 Don Norman Design Organisation Award."
+      },
+      {
+        "name_zh": "系统设计促进可持续社区照护——以都灵与上海为例",
+        "name_en": "Systemic design for sustainable community care: a comparison between Turin and Shanghai towards a new model of care for older adults",
+        "description_zh": "本研究对上海静安区与都灵ASL TO3社区老年护理模式进行比较研究，探索可持续社区照护体系的创新路径。研究提出“医养五床联动”整合照护模式，促进医疗与社会服务协同，提升老年人社区照护质量与可持续性。",
+        "description_en": "This research presents a comparative study of community-based elderly care models in Jing’an District, Shanghai, and A.S.L. TO3 in Turin, exploring innovative pathways towards more sustainable community care systems. The study proposes an integrated “Five-bed Linkage” care model, promoting collaboration between healthcare and social services, while enhancing the quality and sustainability of community care for older adults.\n\n"
+      }
+    ],
+    "courses": [],
+    "gallery": [
+      {
+        "src": "images/faculty-1602.webp",
+        "caption_zh": "概念模式",
+        "caption_en": "Concept schema"
+      },
+      {
+        "src": "images/faculty-5916.webp",
+        "caption_zh": "静安社区照护新“五床联动”照护模式利益相关者图谱",
+        "caption_en": "Jing'an Community Care New ‘Five-bed Linkage’ Care Model Stakeholder Map."
+      },
+      {
+        "src": "images/faculty-2020.webp",
+        "caption_zh": "中国、意大利和日本医疗政策发展的里程碑",
+        "caption_en": "Milestones in the Development of Healthcare Policies in China,Italy and Japan. "
+      },
+      {
+        "src": "images/faculty-7160.webp",
+        "caption_zh": "文献综述结果的可视化呈现",
+        "caption_en": "Visualization of the results of the literature review "
+      },
+      {
+        "src": "images/asl-to.webp",
+        "caption_zh": "A.S.L. TO3社区护理跨尺度模型",
+        "caption_en": "Community care cross-scale model in A.S.L. TO3 "
+      }
+    ]
+  },
+  {
+    "id": "zhang-shuai",
+    "name_zh": "张帅",
+    "name_en": "Shuai Zhang",
+    "title_zh": "副教授、博士生导师",
+    "title_en": "Associate Professor, PhD Supervisor",
+    "photo": "images/photo-shuai-zhang.webp",
+    "bio_zh": "张帅，经济学博士和博士后，同济大学设计创意学院副教授和博士生导师，先后入选上海市“晨光计划”和“扬帆计划”。他长期从事可持续发展的基础理论、可持续发展的指标构建、可持续设计等领域的研究，综合运用经济学、管理学、设计学等多学科知识和方法深入研究可持续发展领域的科学问题。他在Resources, Conservation, and Recycling、Habitat International、The Design Journal、Journal of Cleaner Production、British Food Journal、《中国人口·资源与环境》等中英文学术期刊发表SSCI/SCI/AHCI/CSSCI论文若干篇，出版学术专著和译著若干部，主持国家自然科学基金青年项目、教育部项目、上海市科委项目等纵向科研项目若干项。",
+    "bio_en": "Zhang Shuai is an Associate Professor and Doctoral Supervisor at the College of Design and Innovation, Tongji University. He holds a Ph.D. in Economics and has completed postdoctoral research. He has been honored with the Shanghai \"Chenguang Program\" and the \"Yangfan Program\". His long-term research focuses on the fundamental theories of sustainable development, the construction of sustainable development indicators, and sustainable design. He integrates multidisciplinary knowledge and methods from economics, management, and design studies to conduct in-depth research on scientific issues in the field of sustainable development. He has published numerous SSCI/SCI/AHCI/CSSCI papers in both Chinese and English academic journals such as Resources, Conservation, and Recycling, Habitat International, The Design Journal, Journal of Cleaner Production, British Food Journal, and China Population, Resources and Environment. He has also authored several academic monographs and translated works. He has served as the Principal Investigator for several vertical research projects, including the Youth Program of the National Natural Science Foundation of China, projects funded by the Ministry of Education, and projects supported by the Shanghai Municipal Science and Technology Commission.",
+    "tags": [
+      "Sustainable Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "强可持续发展观：全球视野和中国故事（专著）",
+        "name_en": "Strong Sustainable Development View (Book)",
+        "description_zh": "《强可持续发展观》一书，系统阐述强可持续发展观的理论与实践。",
+        "description_en": "A book systematically presenting the theory and practice of the strong sustainable development view."
+      },
+      {
+        "name_zh": "How to define sustainable design? An exploration through bibliometric analysis and literature review based on Web of Science",
+        "name_en": "How to define sustainable design? An exploration through bibliometric analysis and literature review based on Web of Science",
+        "description_zh": "发表于《The Design Journal》，探讨可持续设计的定义及其边界。",
+        "description_en": "Published in The Design Journal, exploring the definition and boundaries of sustainable design."
+      },
+      {
+        "name_zh": "Design for sustainable consumer\r\nbehavior in food industry: a 10-year systematic literature review",
+        "name_en": "Design for sustainable consumer\r\nbehavior in food industry: a 10-year systematic literature review",
+        "description_zh": "发表于《British Food Journal》，研究面向可持续消费行为的设计方法。",
+        "description_en": "Published in British Food Journal, studying design methods for sustainable consumer behavior."
+      },
+      {
+        "name_zh": "从增长到稳态——赫尔曼·戴利的可持续发展思想评述",
+        "name_en": "From Growth to a Steady-State Economy: A Review of Herman Daly’s Thoughts on Sustainable Development",
+        "description_zh": "发表于 CSSCI 期刊，评述赫尔曼·戴利的稳态经济学思想。",
+        "description_en": "Published in CSSCI journal, reviewing Herman Daly's steady-state economics thought."
+      },
+      {
+        "name_zh": "社区微更新的协同共创：以中国上海为例的模式分析与案例研究",
+        "name_en": "Co-creation of community micro-renewals: Model analysis and case studies in Shanghai, China",
+        "description_zh": "发表于 Habitat International，研究社区微更新中的共创设计方法。",
+        "description_en": "Published in Habitat International, studying co-creation design methods in community micro-renewal."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "可持续思维",
+        "name_en": "Sustainable Thinking",
+        "description_zh": "培养可持续发展的思维方式和设计理念。",
+        "description_en": "Cultivating ways of thinking and design concepts for sustainable development."
+      },
+      {
+        "name_zh": "可持续发展理论与研究方法",
+        "name_en": "Sustainable Development Theory and Research Methods",
+        "description_zh": "系统介绍可持续发展的核心理论与研究方法。",
+        "description_en": "Systematic introduction to core theories and research methods of sustainable development."
+      },
+      {
+        "name_zh": "可持续发展经济学前沿研究",
+        "name_en": "Frontier Research in Sustainable Development Economics",
+        "description_zh": "探讨可持续发展经济学的前沿话题。",
+        "description_en": "Exploring frontier topics in sustainable development economics."
+      },
+      {
+        "name_zh": "资源环境经济学",
+        "name_en": "Resource and Environmental Economics",
+        "description_zh": "研究资源与环境的经济学分析方法。",
+        "description_en": "Studying economic analysis methods for resources and environment."
+      },
+      {
+        "name_zh": "可持续设计：思维和案例",
+        "name_en": "Sustainable Design: Thinking and Cases",
+        "description_zh": "通过案例分析理解可持续设计的思维方式。",
+        "description_en": "Understanding sustainable design thinking through case analysis."
       }
     ],
     "gallery": []
   },
   {
-    "id": "lu-wen",
-    "name": "卢雯 Lu Wen",
-    "title": "Postdoctoral Researcher / 博士后研究员",
-    "photo": "",
-    "bio": "毕业于都灵理工大学，获管理、生产与设计工学博士学位。从事基于系统设计方法的跨学科研究，研究方向涵盖可持续医疗系统、生态系统保护以及企业的创新转型等领域。在可持续医疗方面，研究聚焦于中意两国的老年人社区护理体系、可持续医疗教育与培训、以及医疗机构废弃物系统；在生态系统保护方面，研究内容包括上海长江口潮汐废物系统调查、青海长江源地区的废物与污水处理系统、野生动物多样性与栖息地保护等议题；在企业可持续创新方面，以系统设计框架，致力于探索企业、社区与环境之间的良性循环关系。Graduated from Politecnico di Torino with a PhD in Management, Production and Design Engineering. Her interdisciplinary research focuses on Systemic Design methodologies, spanning sustainable healthcare, ecosystem conservation, and enterprise innovation.",
+    "id": "eun-ji-cho",
+    "name_zh": "Eun Ji Cho",
+    "name_en": "Eun Ji Cho",
+    "title_zh": "副研究员",
+    "title_en": "Associate Research Fellow",
+    "photo": "images/photo-eun-ji-cho.webp",
+    "bio_zh": "Eun Ji Cho是同济大学设计创意学院的副研究员，她在同济大学设计创意学院负责教授研究生的服务设计和社会创新设计课程。Eun Ji Cho在意大利米兰理工大学获得设计学博士学位，在荷兰代尔夫特理工大学获得交互设计硕士学位。加入同济大学之前，她曾在湖南大学担任助理教授。她的研究重点是针对社会创新的服务设计，尤其是协同服务和社会可持续性研究。她最近的工作包括将埃佐·曼奇尼（Ezio Manzini）的书籍《设计，当每个人都在设计时：社会创新设计导论》（麻省理工学院出版社，2015）翻译成韩语（Ahn图形学，2016）。",
+    "bio_en": "Eun Ji Cho is an Associate Research Fellow of the College of Design and Innovation, Tongji University, China, where she teaches service design and design for social innovation, and serves as academic coordinator of the double degree program with KISD (Köln International School of Design). She received her Ph.D. in Design from Politecnico di Milano in Italy and MSc in Design for Interaction from TU Delft in the Netherlands. Prior to joining Tongji University, she worked at Hunan University as an assistant professor. Her main area of research is service design for social innovation, with a particular focus on social sustainability and service co-production. She has been a member of DESIS Network (Design for Social Innovation and Sustainability) since 2010, and worked in DESIS international coordination team from 2010 to 2013. Her work includes the translation of Ezio Manzini’s book Design, When Everybody Designs: An Introduction to Design for Social Innovation (MIT press, 2015) into Korean (Ahn graphics, 2016). ",
     "tags": [
-      "Sustainable Design",
-      "Systemic Design",
-      "Sustainable Healthcare",
-      "Ecosystem Conservation",
-      "Elderly Care",
-      "Zero Waste"
+      "Social Innovation",
+      "Service Design"
     ],
     "achievements": [
       {
-        "name": "长江口潮汐废物系统研究 / Systemic Research on Tidal Waste at the Yangtze Estuary",
-        "description": "项目根植于上海吴淞炮台湾国家湿地公园，运用系统设计方法应对废弃物随潮汐涌入河流的挑战。在零废弃社区的建设过程中，注重包容性与社区赋权。2025年11月，该项目获得2025年唐·诺曼设计组织奖（Don Norman Design Organisation Award）。"
+        "name_zh": "Beyond Closed Doors：从独白到对话——与“家里蹲”群体同行",
+        "name_en": "Beyond Closed Doors: From monologues to dialogues with the hikikomori",
+        "description_zh": "该项目于 2025 年在韩国第十一届光州设计双年展展出，是一项关注社会退缩青年（“家里蹲”）现象的设计研究。项目通过深度访谈收集因在高度竞争社会中经历挫折和失败而选择封闭自我的青年故事，并将这些经历转化为微叙事内容，通过社交媒体传播，同时构建开放、匿名的线上交流空间，促进社会退缩群体之间的连接与对话。",
+        "description_en": "Featured at the 11th Gwangju Design Biennale in Korea, the project was initiated as a design research project aiming to investigate the phenomenon of socially withdrawn youth, often referred to as ‘hikikomori (家里蹲)’. Through in-depth interviews, the project collected the stories of socially withdrawn individuals who chose to retreat into their rooms after facing repeated failures and frustration in an increasingly competitive society. These stories, crafted into micro-storytelling formats, are shared on social media, also serving as an online space for open, anonymous interaction and connection among them.  "
       },
       {
-        "name": "系统设计为了社区护理：以都灵与上海为例 / Systemic Design for Sustainable Community Care",
-        "description": "对上海静安区与都灵ASL TO3社区老年护理模式进行比较研究，探索可持续社区照护体系的创新路径。研究提出“医养五床联动”整合照护模式，促进医疗与社会服务协同，提升老年人社区照护质量与可持续性。"
+        "name_zh": "关怀型邻里：七种未来情景",
+        "name_en": "7 scenarios for Neighborhood of care",
+        "description_zh": "\n该展览于 2021 年 12 月 10 日至 20 日在上海阜新社区中心举办，展示了设计创意学院研究生在《PSSD 方法与工具》课程中开发的七项服务概念，旨在为四平社区中的老年人、心智障碍人士等弱势群体提供更具包容性的关怀服务。阜新社区中心用户及周边居民积极参与展览，并通过反馈卡对服务方案提出意见和建议，共同参与社区未来的构建。",
+        "description_en": "The exhibition - held at the Fuxin neighborhood community center from December 10 to 20, 2021 - shared 7 service concepts, developed by D&I postgraduate students through the course ‘PSSD methodologies and tools’, to better take care of vulnerable groups in the Siping neighborhood ranging from the elderly to the mentally challenged. Local residents, especially users of the Fuxin neighborhood community center, who are the main target users of many of the proposed services, joined the exhibition and shared their opinions on the service concepts by using feedback cards provided at the exhibition."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "服务设计：方法与工具",
+        "name_en": "Service Design: Methods and Tools",
+        "description_zh": "本课程强调实践导向学习，帮助学生掌握服务设计的核心方法与工具，包括用户理解（人物角色、用户旅程）、系统分析（系统地图）以及概念表达（情景构建、服务蓝图）等内容。",
+        "description_en": "Designed for hands-on learning, the course aims to train students to master essential service design tools, ranging from user-understanding tools (e.g., personas, journey maps) to system analysis (e.g., system maps) and concept presentations (e.g., scenarios, service blueprints).\n\n"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/eunji-cho-p1.webp",
+        "caption_zh": "Beyond Closed Doors 项目海报 - 基于对社会退缩青年的访谈内容创作，于 2025 年光州设计双年展展出",
+        "caption_en": "Project\n‘Beyond Closed Doors’: Poster\ncreated based on interviews with reclusive youth, exhibited at the Gwangju\nDesign Biennale, 2025"
+      },
+      {
+        "src": "images/eunji-cho-p2.webp",
+        "caption_zh": "Beyond Closed Doors 项目海报 - 基于对社会退缩青年的访谈内容创作，于 2025 年光州设计双年展展出",
+        "caption_en": "Project ‘Beyond Closed Doors’: Poster created based on interviews with reclusive youth, exhibited at the Gwangju Design Biennale, 2025"
+      },
+      {
+        "src": "images/eunji-cho-p3.webp",
+        "caption_zh": "Beyond Closed Doors 项目展览现场 - 2025 年光州设计双年展展览空间实景",
+        "caption_en": "Project ‘Beyond Closed Doors’: Installation view of the project at the Gwangju\r\nDesign Biennale, 2025"
+      },
+      {
+        "src": "images/eunji-cho-p4.webp",
+        "caption_zh": "Beyond Closed Doors 项目观众留言 - 参观者在 2025 年光州设计双年展现场留下的反馈与寄语",
+        "caption_en": "Project ‘Beyond Closed Doors’: Messages left by visitors at the Gwangju Design\r\nBiennale, 2025"
+      },
+      {
+        "src": "images/eunji-cho-p5.webp",
+        "caption_zh": "关怀型邻里：七种未来情景展览现场 - 2021 年于上海复馨社区中心举办的展览，展示面向社区弱势群体的服务设计方案",
+        "caption_en": "Exhibition ‘7 scenarios for Neighborhood of care’ at Fuxin neighborhood community center, Shanghai"
+      },
+      {
+        "src": "images/eunji-cho-p6.webp",
+        "caption_zh": "关怀型邻里：七种未来情景展览现场 - 2021 年于上海复馨社区中心举办的展览，展示面向社区弱势群体的服务设计方案",
+        "caption_en": "Exhibition ‘7 scenarios for Neighborhood of care’ at Fuxin neighborhood community center, Shanghai"
+      },
+      {
+        "src": "images/eunji-cho-p7.webp",
+        "caption_zh": "关怀型邻里：七种未来情景展览现场 - 2021 年于上海复馨社区中心举办的展览，展示面向社区弱势群体的服务设计方案",
+        "caption_en": "Exhibition ‘7 scenarios for Neighborhood of care’ at Fuxin neighborhood community center, Shanghai"
+      }
+    ]
+  },
+  {
+    "id": "zhu-xiaocun",
+    "name_zh": "朱小村",
+    "name_en": "Zhu Xiaocun",
+    "title_zh": "副教授",
+    "title_en": "Associate Professor",
+    "photo": "images/photo-zhu-xiaocun.webp",
+    "bio_zh": "朱小村，同济大学设计创意学院副教授。她受过系统的建筑学训练，毕业于东南大学（建筑学学士、硕士），后于哈佛大学设计研究生院取得设计研究硕士学位。2002年加入同济大学，先后任教于建筑与城市规划学院与设计创意学院。\n她长期致力于可持续设计、环境设计与系统思维领域的研究与教学，聚焦于在快速变化背景下探寻人类社会真正的可持续性。她擅长在整体语境中观察问题、寻求综合性解决方案，致力于推动从“减少伤害”向创造“更多善意”的转型与创新。她曾在意大利米兰理工大学、瑞典隆德大学、瑞典国立艺术与设计大学、清华大学、中央美术学院、东南大学等高校担任访问教授或演讲嘉宾。",
+    "bio_en": "Zhu Xiaocun is an Associate Professor at the College of Design and Innovation, Tongji University. Trained systematically in architecture, she received her Bachelor and Master of Architecture from Southeast University in China, and later earned a Master of Design Studies from the Harvard Graduate School of Design. She joined Tongji University in 2002 and has taught at the College of Architecture and Urban Planning and the College of Design and Innovation.\nHer long-term research and teaching focus on sustainable design, environmental design, and systems thinking, with an emphasis on pursuing genuine sustainability for human society in the context of rapid change. Skilled at observing issues and seeking integrated solutions within holistic contexts, she is dedicated to advancing the transition from \"reducing harm\" to creating \"more good.\" She has been invited as a visiting professor or guest speaker at several institutions, including Politecnico di Milano in Italy, Lund University and Konstfack University of Arts, Crafts and Design in Sweden, and Tsinghua University, Central Academy of Fine Arts, and Southeast University in China.\n",
+    "tags": [
+      "Sustainable Design",
+      "Urban Planning",
+      "Environmental Design"
+    ],
+    "achievements": [],
+    "courses": [
+      {
+        "name_zh": "可持续设计理念",
+        "name_en": "Sustainability Consciousness",
+        "description_zh": "同济大学设计创意学院面向全体本科生的必修课\n从身边的日常现象出发，以跨学科思辨洞察设计如何超越“减少伤害”，创造更多善意。课程旨在培养学生系统性思维与可持续理念，成为具备可持续意识的设计师。",
+        "description_en": "Compulsory course for all undergraduates at the College of Design and Innovation, Tongji University\nStarting from everyday phenomena, this course uses cross-disciplinary inquiry to examine how design can move beyond \"reducing harm\" and create more good. It aims to cultivate students' systemic thinking and sustainable mindset, shaping designers with genuine sustainability awareness."
+      },
+      {
+        "name_zh": "Regenerative Design for Sustainability",
+        "name_en": "Regenerative Design for Sustainability",
+        "description_zh": "同济大学设计创意学院，全英文研究生课程\n从系统思维出发，看见更大图景，探索全球议题与本地解决方案。在跨文化交流中重新定义设计师角色，让设计真正“向好而生”。",
+        "description_en": "English-taught graduate course at the College of Design and Innovation, Tongji University\nAdopting a systems thinking approach to see the bigger picture, this course explores global issues and local solutions. It redefines the role of designers through cross-cultural exchange, enabling design to truly \"grow toward the good.\""
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "wu-duan",
+    "name_zh": "吴端",
+    "name_en": "Wu Duan",
+    "title_zh": "教授、博士生导师",
+    "title_en": "Professor, PhD Supervisor",
+    "photo": "images/photo-duan-wu.webp",
+    "bio_zh": "\n吴端博士具有工业设计、视觉传达设计及建筑设计的综合教育背景，主要从事环境设计、环境图形设计、社会创新与可持续设计的教学、理论研究与设计实践工作。创立并主持国际体验图形设计协会SEGD上海分会，兼任上海勘察设计行业协会标识与城市文化分会副会长，同济大学设计创意学院-瑞安创智天地公共创新实验室MeetU lab主任。",
+    "bio_en": "Dr. Duan Wu has an interdisciplinary educational background in Industrial Design, Visual Communication Design, and Architecture. Her work focuses on teaching, theoretical research, and professional practice in the fields of environmental design, environmental graphic design, social innovation, and sustainable design.\n\nShe founded and currently chairs the Shanghai Chapter of the Society for Experiential Graphic Design (SEGD). She also serves as Vice President of the Signage and Urban Culture Branch of the Shanghai Survey and Design Industry Association, and as Director of MeetU Lab, the Public Innovation Laboratory jointly established by the College of Design and Innovation at Tongji University and Shui On Xintiandi.",
+    "tags": [
+      "Environmental Design",
+      "Social Innovation",
+      "Sustainable Design",
+      "Inclusive Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "体验图形设计研究：环境信息识别与包容性设计",
+        "name_en": "Experiential Graphic Design Research: Environmental Information Recognition and Inclusive Design",
+        "description_zh": "围绕环境信息识别的人因工程问题，相关研究系统探讨了不同视觉感知条件下的信息获取效率与认知表现，重点关注色觉障碍人群、跨媒介信息传递以及公共空间标识可识别性等议题。研究内容涵盖地铁空间标识色彩混同模型优化、导向标识系统的跨媒介信息传递机制，以及公共空间标识文字高度与识别性的关系等。\n\n研究成果推动了包容性环境信息设计的发展，并被纳入国家标准《公共建筑标识系统技术规范》（GB/T 51223-2017）和《特殊设施工程项目规范》（GB 55028-2022），为公共建筑和特殊设施环境中的信息无障碍建设提供了理论依据和技术支持。",
+        "description_en": "This research area investigates human factors in environmental information recognition, with a focus on optimizing information accessibility and legibility under diverse perceptual conditions. Topics include color confusion models for metro signage systems for people with color vision deficiency, cross-media information transmission in wayfinding systems, and the relationship between letter height and legibility in public signage.\n\nBy addressing the challenges of inclusive information design, the research has contributed to the development of national standards for public environments. The outcomes have been incorporated into the Chinese national standards Technical Specification for Signage Systems of Public Buildings (GB/T 51223-2017) and Code for Special Facilities Engineering Projects (GB 55028-2022), providing theoretical and technical foundations for accessible information systems in public spaces."
+      },
+      {
+        "name_zh": "同济大学设计创意学院—瑞安创智天地公共创新实验室（MeetU Lab）",
+        "name_en": "MeetU Lab",
+        "description_zh": "依托同济大学设计创意学院—瑞安创智天地公共创新实验室（MeetU Lab），相关研究持续探索社区空间的高质量、灵活化利用及其在城市转型中的社会创新机制。研究关注如何通过设计激活闲置空间资源，促进社区参与，并构建具有韧性和可持续性的城市公共生活。\n\n项目实践涵盖城市空间灵活利用、文化与创意驱动的城市更新以及未来城市中心建设等议题，并与欧盟 Horizon 2020 项目 T-Factor、政府间国际科技创新合作项目“城市转型时期的创新：通过文化和创意主导式战略打造面向未来的城市中心”等国际研究网络形成协同，共同探索城市转型背景下的新型空间生产与社会协作模式。",
+        "description_en": "Based on the MeetU Lab, a public innovation laboratory jointly established by Tongji University’s College of Design and Innovation and Xintiandi, this line of work explores social innovation approaches for the high-quality and flexible use of community spaces during periods of urban transformation.\n\nThe research investigates how design can activate underutilized spatial resources, foster community participation, and support more resilient and sustainable forms of public life. Project activities have engaged with themes including flexible urban space utilization, culture- and creativity-led urban regeneration, and future city centers. These efforts are connected with international research initiatives such as the EU Horizon 2020 project T-Factor and the intergovernmental collaborative project Innovation in Urban Transformation: Building Future City Centers through Culture- and Creativity-led Strategies in Times of Transition (2022YFE0197700)."
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "专业设计1：环境中的符号",
+        "name_en": "Professional Design 1: Symbols in the Environment",
+        "description_zh": "《专业设计1:环境中的符号》是一门面向本科二年级学生，是一门有68学时4学分的核心专业课程。课程曾获得2017年同济大学教学成果奖一等奖、获得2021年同济大学教学成果奖二等奖，学生课程作业多次获得国内、国际奖项。",
+        "description_en": "Professional Design I: Symbols in the Environment is a core undergraduate studio course (68 contact hours, 4 credits) for second-year students. The course focuses on environmental graphic design, wayfinding systems, and information communication in public spaces. Through project-based learning and real-world contexts, students develop the ability to identify problems, construct narratives, and create spatial experiences."
+      },
+      {
+        "name_zh": "Studio1: Advanced Environmental Design ",
+        "name_en": "Studio1: Advanced Environmental Design ",
+        "description_zh": "《Studio1-Advanced Environmental Design》是一门面向环境设计方向研究生一年的的专业学位课，曾获得2025年同济大学教学成果奖二等奖、同济大学研究生示范课程、全国艺术硕士专业学位研究生在线示范课程等荣誉。",
+        "description_en": "Studio 1: Advanced Environmental Design is a professional degree course for first-year graduate students specializing in Environmental Design. The course received the Second Prize of the Tongji University Teaching Achievement Award (2025) and has been recognized as a Tongji University Graduate Model Course and a National Online Demonstration Course for Master of Fine Arts Programs in China."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/duan-wu-p1.webp",
+        "caption_zh": "2022世界设计之都大会联合展-社区万象设计展",
+        "caption_en": "Community Kaleidoscope Design Exhibition, a joint exhibition presented at the 2022 World Design Capital Conference (WDCC)."
+      },
+      {
+        "src": "images/duan-wu-p2.webp",
+        "caption_zh": "课程成果“行走的天文馆-一平米博物馆设计”",
+        "caption_en": "Walking Planetarium: One-Square-Meter Museum Design"
+      },
+      {
+        "src": "images/duan-wu-p3.webp",
+        "caption_zh": "课程成果“趣造节-品牌快闪装置设计”",
+        "caption_en": "Fun-Making Festival: Brand Pop-up Installation Design"
+      },
+      {
+        "src": "images/duan-wu-p4.webp",
+        "caption_zh": "课程成果“Bubble Talk屋顶平台环境图形设计”获得国际体验图形协会SEGD年度设计入围奖",
+        "caption_en": "\nBubble Talk: Environmental Graphic Design for a Rooftop Platform, which received a SEGD Global Design Awards Finalist recognition from the Society for Experiential Graphic Design."
+      },
+      {
+        "src": "images/duan-wu-p5.webp",
+        "caption_zh": "课程成果“Bubble Talk屋顶平台环境图形设计”获得国际体验图形协会SEGD年度设计入围奖",
+        "caption_en": "\nBubble Talk: Environmental Graphic Design for a Rooftop Platform, which received a SEGD Global Design Awards Finalist recognition from the Society for Experiential Graphic Design."
+      }
+    ]
+  },
+  {
+    "id": "saverio-silli",
+    "name_zh": "Saverio Silli",
+    "name_en": "Saverio Silli",
+    "title_zh": "设计实践副教授",
+    "title_en": "Associate Professor of Design Practice",
+    "photo": "images/photo-saverio-silli.webp",
+    "bio_zh": "Saverio Silli 是一位设计师、教育者和创客，其工作横跨数字制造、可持续发展与设计教育领域。凭借建筑与产品设计背景，他是意大利创客运动的早期推动者之一，参与创建了罗马首批 FabLab，并积极倡导开放、普惠的技术与创新方式。\n\n自 2016 年起，他担任同济大学设计创意学院 FabLab Shanghai 副主任，教授数字制造、物理计算和原型设计。他的工作致力于赋能学生开发兼具创造力、低成本技术和负责任设计思维的实践性解决方案。\n\n通过工作坊、研究和跨学科项目，Saverio 探索如何将制造与原型设计转化为“具身化”（embodiment）的工具，以支持超越人类中心（more-than-human）和生命中心（life-centered）的设计方法。他尤其关注制造过程如何通过有形实验，使学生能够以身体参与的方式理解生态系统、非人类视角以及未来情境。他的实践结合数字制造、开源技术和 AI 辅助设计，以促进批判性思维、协作学习，以及人类、技术与环境之间更具可持续性的新型互动方式。\n\nSaverio 毕业于 Fab Academy——由麻省理工学院比特与原子中心（Center for Bits and Atoms）主任 Neil Gershenfeld 教授创立并指导的数字制造教育项目。此后，他成为国际 FabLab 网络的全球导师，并为世界各地的教育计划和创意社群作出了贡献。",
+    "bio_en": "Saverio Silli is a designer, educator, and maker working at the intersection of digital fabrication, sustainability, and design education. With a background in architecture and product design, he was among the initiators of the Italian maker movement, contributing to the launch of the first FabLabs in Rome and promoting open, accessible approaches to technology and innovation.\nSince 2016, he has been Vice-Director of FabLab Shanghai at Tongji University’s College of Design and Innovation, where he teaches digital fabrication, physical computing, and prototyping. His work focuses on empowering students to develop hands-on solutions that combine creativity, low-cost technologies, and responsible design thinking.\nThrough workshops, research, and interdisciplinary projects, Saverio explores how fabrication and prototyping can become tools for embodiment within more-than-human and life-centered design approaches. He is particularly interested in how making processes help students physically engage with ecological systems, non-human perspectives, and future scenarios through tangible experimentation. His practice combines digital fabrication, open-source technologies, and AI-assisted design to encourage critical thinking, collaborative learning, and new forms of sustainable interaction between humans, technology, and the environment.\nA graduate of Fab Academy, the digital fabrication program directed by Prof. Neil Gershenfeld at MIT’s Center for Bits and Atoms, Saverio later became a global mentor within the international FabLab Network and has contributed to educational initiatives and creative communities worldwide.",
+    "tags": [
+      "Ecology",
+      "More-than-Human",
+      "Digital Fabrication"
+    ],
+    "achievements": [
+      {
+        "name_zh": "Whatchamacallit——通过物理构思的人–自然互动",
+        "name_en": "Whatchamacallit – Human-Nature Interaction through Physical Ideation",
+        "description_zh": "与 Francesca Valsecchi 教授在“城市自然与制造工作室”中共同开发了 Whatchamacallit 方法论。该项目将“超快速原型制作”和动手制造引入设计实践，作为培养生态共情和超越人类中心设计的工具。学生们制作了实验性装置，通过具身和感官体验改变感知、增强感官，并探索与城市自然互动的新方式。该方法论以图示形式在 IASDR 2021 会议上展示，题为《利用制造与动手方法促进生态共情的发展》。",
+        "description_en": "Co-developed the Whatchamacallit methodology within the Urban Nature and Fabrication studio with Prof. Francesca Valsecchi. The project introduced “very rapid prototyping” and hands-on fabrication as tools to support ecological empathy and more-than-human design. Students created experimental devices that altered perception, augmented senses, and explored new ways of interacting with urban nature through embodied and sensory experiences. The methodology was presented at the IASDR 2021 Conference with a pictorial: Leveraging on Fabrication and Making Methodologies to Support the Development of Ecological Empathy. \n"
+      },
+      {
+        "name_zh": "PCB for Designers——将电子技术融入生态设计教育",
+        "name_en": "PCB for Designers – Integrating Electronics into Ecological Design Education",
+        "description_zh": "开发并主持了 PCB for Designers 工作室课程，将电子电路设计、嵌入式编程和数字制造整合到交互设计与生态设计教育之中。通过动手实践和体验式学习方法，学生设计并制造了功能完整的电子装置，以探索人–自然互动、生态感知以及超越人类中心的视角。相关教育框架和研究成果发表于不丹 FAB23 大会，论文题为《在设计工作室中整合电子电路设计与制造》（Integrating Electronic Circuit Design and Fabrication in a Design Studio），并荣获大会“最佳论文奖”（Best Conference Paper Award）。",
+        "description_en": "Developed and directed PCB for Designers, a studio course integrating electronic circuit design, embedded programming, and digital fabrication into interaction and ecological design education. Through hands-on and experiential learning methodologies, students designed and fabricated fully functional electronic devices exploring human-nature interaction, ecological sensing, and more-than-human perspectives. The educational framework and research outcomes were presented at the Bhutan FAB23 Conference in the paper Integrating Electronic Circuit Design and Fabrication in a Design Studio, which won the “Best conference paper” award.\n"
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "开源硬件与编程",
+        "name_en": "Open-source Hardware and Programming",
+        "description_zh": "一门以体验式学习为基础的实践课程，介绍开源电子技术、嵌入式编程和数字制造。学生在设计和原型制作交互系统的过程中，批判性地探索技术、传感以及物理计算在设计实践中的作用。",
+        "description_en": "Hands-on course introducing open-source electronics, embedded programming, and digital fabrication through experiential learning. Students design and prototype interactive systems while critically exploring the role of technology, sensing, and physical computing in design practice. \n"
+      },
+      {
+        "name_zh": "面向设计师的 PCB 设计\n    ",
+        "name_en": "PCB for Designers",
+        "description_zh": "将电子电路设计、PCB 制造和嵌入式系统整合到交互设计和生态设计中的工作室课程。通过快速原型制作和动手实验，学生开发电子装置，探索人与自然的互动以及超越人类中心的设计视角。",
+        "description_en": "Studio course integrating electronic circuit design, PCB fabrication, and embedded systems into interaction and ecological design. Through rapid prototyping and hands-on experimentation, students develop electronic devices exploring human-nature interaction and more-than-human perspectives. \n"
+      },
+      {
+        "name_zh": "城市自然与制造",
+        "name_en": "Urban Nature and Fabrication",
+        "description_zh": "一门跨学科工作室课程，通过制造实践、感官探索和实体构思，研究生态共情与人与自然的关系。学生运用动手制作方法和快速原型技术，探索超越人类中心的设计情境。",
+        "description_en": "Interdisciplinary studio exploring ecological empathy and human-nature interaction through fabrication, sensory exploration, and physical ideation. Students use making methodologies and rapid prototyping to investigate more-than-human design scenarios. "
+      },
+      {
+        "name_zh": "事物如何被制造",
+        "name_en": "How Things Are Made (HTAM)",
+        "description_zh": "一门跨学科课程，研究产品如何在本地化生产体系中被设计、制造、组装和记录。课程受到麻省理工学院基于创客文化的学习方法启发，结合讲授、制造工作坊以及协作式微挑战，重点关注数字制造、可维修性、开源方法以及可持续的分布式制造。",
+        "description_en": "Cross-disciplinary course investigating how products are designed, fabricated, assembled, and documented within localized production systems. Inspired by MIT’s maker-based learning approaches, the course combines lectures, fabrication workshops, and collaborative micro-challenges focused on digital fabrication, repairability, open-source methods, and sustainable distributed manufacturing."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/saverio-silli-p1.webp",
+        "caption_zh": "    “Whatchamacallit” 工作坊",
+        "caption_en": "Workshop “Whatchamacallit”"
+      },
+      {
+        "src": "images/saverio-silli-p2.webp",
+        "caption_zh": "“Whatchamacallit” 电子电路及其在自然观察中的应用",
+        "caption_en": "Electronic Circuits “Whatchamacallit” and\r\nuse in Nature Observation"
+      },
+      {
+        "src": "images/saverio-silli-p3.webp",
+        "caption_zh": "PCB for Designers 课程作品：重建人与自然联系的电子装置",
+        "caption_en": "Electronic devices that reconnect Humans\r\nand Nature from the course “PCB for Designers”"
+      },
+      {
+        "src": "images/saverio-silli-p4.webp",
+        "caption_zh": "Gao Peizhong的 “Percuino”：一款可穿戴装置，通过可切换模块增强人类感知能力：包括基于地理定位的“海龟”模块、用于热量探测的“蛇”模块，以及用于运动感知的“青蛙”模块。",
+        "caption_en": "“Percuino” from Gao Peizhong, a wearable\r\ndevice to augment human’s senses with geo-positioning (Turtle), thermal\r\ndetection (Snake) and movement sensing (Frog) using switchable modules"
+      },
+      {
+        "src": "images/saverio-silli-p5.webp",
+        "caption_zh": "Gao Shihan 的 “Treelapse”：一种能够长期监测树木运动状态的装置，通过记录树木随时间变化的微小运动，并将数据转化为数据艺术作品。",
+        "caption_en": "“Treelapse” by Gao Shihan, a device that\r\ndetects the movements of tree over a long period of time to generate data-art"
+      },
+      {
+        "src": "images/saverio-silli-p6.webp",
+        "caption_zh": "事物如何被制造（How Things Are Made）课程项目展览：通过重新审视泡沫拖鞋的生产过程，对当前的制造方式进行重新诠释和反思。",
+        "caption_en": "Exhibition of a project from the course\r\n“How Things Are Made” to reinterpret current production methods of foam\r\nslippers."
+      }
+    ]
+  },
+  {
+    "id": "jarmo-suominen",
+    "name_zh": "Jarmo Ilmari Suominen",
+    "name_en": "Jarmo Ilmari Suominen",
+    "title_zh": "教授",
+    "title_en": "Professor",
+    "photo": "images/photo-jarmo-ilmari-suominen.webp",
+    "bio_zh": "Jarmo Suominen 是一位建筑师、研究员、教育者及环境设计实践者，工作领域涵盖建筑、服务设计、城市创新、可持续性以及人机交互（AI与人类的互动）。他现任上海同济大学环境设计学教授及高级环境设计项目主任，同时担任上海创新设计学院副院长，并兼任麻省理工学院同济城市科学实验室副主任。\n\nSuominen 拥有超过二十年的芬兰阿尔托大学工作经验，并与 MIT 进行过研究合作。在这些经历中，他开发并主导了多个项目，涉及学习环境、大学–城市接口、工作场所转型、城市创新以及可持续空间生态系统建设。他的工作强调，建筑不仅是建筑物的设计，更是创造能够促进活动、获取资源、协作及长期价值形成的空间条件的设计。\n\n他目前的研究通过“空间–活动–价值”框架，探讨建筑在变化环境下的相关性。他特别关注可持续空间使用、适应性再利用、分布式空间资源、校园与城市生态系统、混合型创造力，以及 AI 和新兴技术在提升空间与社会关系可见性方面的作用。",
+    "bio_en": "Jarmo Suominen is an architect, researcher, educator, and environmental design practitioner working at the intersection of architecture, service design, urban innovation, sustainability, and human–AI interaction. He is Professor of Environmental Design and Program Director of Advanced Environmental Design at Tongji University, Shanghai, and serves as Vice Dean of the Shanghai Institute of Innovation and Design. He is deputy director in the MIT Tongji City Science Lab.\n\nHis work builds on more than twenty years of experience at Aalto University in Finland and research and collaboration experience with MIT. Across these contexts, he has developed and led projects related to learning environments, university–city interfaces, workplace transformation, urban innovation, and sustainable spatial ecosystems. His work emphasizes architecture not only as the design of buildings, but as the design of spatial conditions that enable activity, access, collaboration, and long-term value formation.\n\nHis current research examines architectural relevance under changing conditions through the Space–Activity–Value framework. He is especially interested in sustainable spatial use, adaptive reuse, distributed spatial resources, campus and city ecosystems, hybrid creativity, and the role of AI and emerging technologies in making spatial and social relationships more visible.",
+    "tags": [
+      "Environmental Design",
+      "Service Design",
+      "Human-AI-Robot Collaboration"
+    ],
+    "achievements": [
+      {
+        "name_zh": "学校即服务",
+        "name_en": "School as a Service",
+        "description_zh": "“学校即服务（School as a Service）”展示了如何将高中教育的各项功能分布到共享的校园资源之中，从而构建一种比传统单一功能校舍更加可持续的学习环境。",
+        "description_en": "School as a Service demonstrates how upper secondary school functions can be distributed across shared campus resources, creating a more sustainable learning environment than a single-purpose school building."
+      },
+      {
+        "name_zh": "Spacent-分布式工作平台",
+        "name_en": "Spacent-Distributed Workplace Platform",
+        "description_zh": "Spacent / 分布式工作空间平台——一个将用户连接至共享工作空间资源网络的服务平台。\nSpacent 展示了如何通过对现有工作空间资源的分布式接入，支持混合办公模式，并促进办公空间更加可持续和高效的利用。",
+        "description_en": "Spacent / Distributed Workplace Platform — a service platform connecting users to a network of shared workspace resources.\nSpacent demonstrates how distributed access to existing workspace resources can support hybrid work and more sustainable use of office space.\n"
+      },
+      {
+        "name_zh": "人–AI–机器人协作艺术 / 社区墙绘",
+        "name_en": "Human–AI–Robot Collaborative Art / Community Murals",
+        "description_zh": "与学生共同开展的协作式墙绘项目——在教育环境中结合社区参与、AI 辅助图像生成以及机器人绘制，实现多方协同创作。",
+        "description_en": "Collaborative mural project with students — combining community participation, AI-assisted image generation, and robotic drawing in an educational environment."
       }
     ],
     "courses": [],
+    "gallery": [
+      {
+        "src": "images/school-as-a-service-demonstrat.webp",
+        "caption_zh": "“学校即服务”试点项目",
+        "caption_en": "School as a Service demonstration project"
+      },
+      {
+        "src": "images/spacent-distributed-workplac.webp",
+        "caption_zh": "Spacent 分布式工作空间解决方案",
+        "caption_en": "Spacent distributed workplace solution"
+      },
+      {
+        "src": "images/collaborative-mural-project-wi.webp",
+        "caption_zh": "参与式墙绘项目",
+        "caption_en": "Collaborative mural project with students"
+      }
+    ]
+  },
+  {
+    "id": "qingfan-an",
+    "name_zh": "安清繁",
+    "name_en": "Qingfan An",
+    "title_zh": "助理教授",
+    "title_en": "Marie Skłodowska-Curie Fellow",
+    "photo": "images/photo-qingfan-an.webp",
+    "bio_zh": "欧盟玛丽居里学者，欧洲呼吸协会成员。先后在英国利物浦大学与英国皇家艺术学院获得工业设计学士及设计研究硕士学位，后于瑞典于默奥大学攻读博士，作为欧盟玛丽居里创新训练网络项目 Health CASCADE 的核心成员，获得医学博士学位。在《Design Studies》《CoDesign》等国际高水平期刊发表学术论文20余篇，并在 HCII、工程与产品设计教育会议、国际设计会议、美国医学信息学协会年会等国际重要学术会议作口头报告。担任 ACM CHI、国际设计会议、E&PDE 等多个国际会议审稿人，并曾担任 E&PDE 分会场主席，同时为多本国际学术期刊担任审稿人。研究方向聚焦设计研究与医疗健康交叉领域，涵盖 AI 赋能医疗产品设计、移动医疗、慢性病自我管理干预设计、医疗保健领域共同创造及系统设计等。",
+    "bio_en": "Marie Skłodowska-Curie Fellow and member of the European Respiratory Society. She earned a Bachelor’s degree in Industrial Design and a Master’s degree in Design Research from the University of Liverpool and the Royal College of Art, UK, and later completed her PhD at Umeå University, Sweden. As a core member of the EU Marie Skłodowska-Curie Innovative Training Network project Health CASCADE, she also obtained a PhD in Medical Science. She has published over 20 academic papers in high-impact international journals such as Design Studies and CoDesign, and has delivered oral presentations at major international conferences including HCII, Engineering & Product Design Education (E&PDE), International Design Conferences, and the American Medical Informatics Association Annual Symposium. She serves as a reviewer for ACM CHI, international design conferences, E&PDE, and multiple international journals, and has chaired E&PDE sessions. Her research focuses on the intersection of design research and healthcare, including AI-enabled medical product design, mobile health, chronic disease self-management interventions, co-creation and systemic design in healthcare.",
+    "tags": [
+      "Systemic Design",
+      "Healthcare Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "医疗健康领域的过渡设计模型",
+        "name_en": "Transition Design model for healthcare",
+        "description_zh": "发展了医疗保健领域的过渡设计模型，用于复杂医疗系统问题的系统化解决。该模型不仅提供可操作的设计策略，还制定了检验标准，为设计学进入医疗保健领域提供了可信赖的科研路径（Design Studies, 2025，被同行广泛引用）。",
+        "description_en": "Developed a Transition Design model for healthcare, aimed at systematically addressing complex problems in healthcare systems. This model not only provides actionable design strategies but also establishes evaluation criteria, offering a credible research pathway for integrating design research into the healthcare domain (Design Studies, 2025; widely cited). "
+      },
+      {
+        "name_zh": "医疗方案的生态方法",
+        "name_en": "Ecological Approach to Healthcare Solutions",
+        "description_zh": "提出并设计了医疗方案生态方法，作为促进医疗干预设计与实施的具体方法论。该方法将共创设计与系统设计相结合，为医疗干预方案的开发提供结构化指导，推动设计研究在医疗健康中的应用（CoDesign, 2025）。",
+        "description_en": "Proposed an approach named Ecology of design briefs, serving as a practical methodology to support the design and implementation of healthcare interventions. By combining co-creation and systema thinking, this approach provides structured guidance for developing intervention programs and advances the application of design research in healthcare (CoDesign, 2025)."
+      }
+    ],
+    "courses": [],
+    "gallery": [
+      {
+        "src": "images/qingfan-an-p1.webp",
+        "caption_zh": "医疗健康领域过渡设计模型",
+        "caption_en": "Adapted Transition Design model in healthcare"
+      },
+      {
+        "src": "images/qingfan-an-p2.webp",
+        "caption_zh": "设计学卡片游戏",
+        "caption_en": "Adapted card game"
+      },
+      {
+        "src": "images/qingfan-an-p3.webp",
+        "caption_zh": "文化探针工具包",
+        "caption_en": "Cultural probes toolkit"
+      },
+      {
+        "src": "images/qingfan-an-p4.webp",
+        "caption_zh": "设计方案生态解决问题机制",
+        "caption_en": "Ecology of design briefs"
+      },
+      {
+        "src": "images/qingfan-an-p5.webp",
+        "caption_zh": "电子病人叙事",
+        "caption_en": "Digital patient narratives"
+      }
+    ]
+  },
+  {
+    "id": "tao-simin",
+    "name_zh": "陶思旻",
+    "name_en": "Simin Tao",
+    "title_zh": "副教授、博士生导师",
+    "title_en": "Associate Professor, PhD Supervisor",
+    "photo": "images/photo-simin-tao.webp",
+    "bio_zh": "陶思旻，建筑学博士，同济大学设计创意学院副教授、博士生导师。环境设计、人工智能与数据设计、智能交互与机器人方向教师，长期从事可持续设计、环境调控、生态城市、声景观交互设计等方面学术研究。主持国家级项目2项、省部级项目1项，包括国家自然科学基金项目、国家社会科学基金后资助项目、上海艺术科学规划项目等；在国际高水平期刊和会议发表论文多篇。同济大学复杂社会技术系统设计研究中心（SUSTAIN X）、能量与热力学建筑中心（CETA）、社会创新和可持续设计实验室（Tongji DESIS）、声音实验室（Soundlab）核心成员。",
+    "bio_en": "Tao Simin, PhD in Architecture, is an Associate Professor and PhD Supervisor at the College of Design and Innovation, Tongji University. She teaches in the fields of environmental design, artificial intelligence and data design, intelligent interaction. Her long-term research focuses on sustainable design, environmental regulation and control, eco-cities, and soundscape interaction design.\nShe has led several national research projects, including projects funded by the National Natural Science Foundation of China, the National Social Science Fund of China Post-funded Program, and the Shanghai Art Science Planning Program. She has published multiple papers in high-level international journals and conferences. She is a core member of SUSTAIN X, the Center for Energy and Thermodynamics in Architecture (CETA), the DESIS Lab for Social Innovation and Sustainable Design, and the Soundlab at Tongji University.\n",
+    "tags": [
+      "Sustainable Design",
+      "Social Innovation",
+      "Systemic Design",
+      "Ecology",
+      "Bio-Acoustics",
+      "Environmental Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "《热力学视角下气候建筑原型方法研究》专著",
+        "name_en": "Research on Climate Building Prototype Methods from a Thermodynamic Perspective (Book)",
+        "description_zh": "个人专著《热力学视角下气候建筑原型方法研究》，中国社会科学出版社出版，国家社科基金后资助项目成果。\n本书探讨了在全球气候变化和能源问题日益突出的背景下，建筑如何以本体设计方式应对外部气候环境的问题，并提出“气候建筑”的概念，即以气候条件为出发点，通过改善室内热舒适和降低能耗来适应并利用外部环境的建筑。将建筑与其气候环境视为一个热力学开放系统，分析其能量流动方式并提出建筑气候策略的形式原型，建构了气候、能量、建筑和人之间的内在联系，明确了热力学视角下气候建筑原型研究的目标和意义。通过对传统民居案例的文献研究和实地调研，提取了气候建筑的“结构-层级-因子”形态梯度模型，并应用于当代气候建筑的设计实践，最终探讨了热力学原型在设计实践中的应用策略。\n",
+        "description_en": "Her book, Research on the Prototype Method of Climatic Architecture from a Thermodynamic Perspective, was published by China Social Sciences Press and is an outcome of a project funded by the National Social Science Fund of China Post-funded Program.\nSet against the backdrop of increasingly pressing global climate change and energy issues, the book explores how architecture can respond to external climatic environments through an ontological design approach. It proposes the concept of “climatic architecture,” referring to architecture that takes climatic conditions as its starting point and adapts to and utilizes the external environment by improving indoor thermal comfort and reducing energy consumption.\nThe book regards architecture and its climatic environment as a thermodynamic open system, analyzes patterns of energy flow, and proposes formal prototypes of architectural climate strategies. In doing so, it constructs the intrinsic relationships among climate, energy, architecture, and people, and clarifies the objectives and significance of prototype research on climatic architecture from a thermodynamic perspective. Through literature review and field investigation of traditional dwelling cases, the book extracts a “structure–hierarchy–factor” morphological gradient model of climatic architecture, applies it to contemporary climatic architectural design practice, and ultimately discusses application strategies for thermodynamic prototypes in design practice.\n"
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "专业设计3：环境作为系统",
+        "name_en": "Studio 3: Environment as System",
+        "description_zh": "聚焦环境设计中的生态系统议题，教学核心是与空间、环境、生态绩效以及其中的协作关系等相关的系统性设计训练。",
+        "description_en": "This course focuses on ecosystem-related issues in environmental design. Its teaching core lies in systematic design training related to space, environment, ecological performance, and the collaborative relationships embedded within them."
+      },
+      {
+        "name_zh": "设计数据分析基础",
+        "name_en": "Fundamentals of Design Data Analysis",
+        "description_zh": "建立数据驱动设计的基本认知，在此基础上分别展开定量数据分析与定性数据分析的学习，并强调两类分析方法在可持续设计中的整合应用，用于支持设计决策与研究论证。",
+        "description_en": "This course builds a basic understanding of data-driven design. On this basis, it introduces quantitative and qualitative data analysis methods respectively, while emphasizing the integrated application of both approaches in sustainable design to support design decision-making and research argumentation."
+      },
+      {
+        "name_zh": "声音设计",
+        "name_en": "Sound Design",
+        "description_zh": "以整合设计的方式处理听觉媒介，研究声音的算法生成和交互形式，学习如何通过设计声音来传达不同情感化信息。",
+        "description_en": "This course approaches auditory media through integrated design. It explores algorithmic sound generation and interactive forms, and guides students in learning how to communicate different emotional messages through the design of sound."
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/simin-tao-p1.webp",
+        "caption_zh": "共同进化：社区生活垃圾资源化服务设计研究",
+        "caption_en": "\"Co-metabolism\"(regarding resource\r\nutilization of organic waste)"
+      },
+      {
+        "src": "images/simin-tao-p2.webp",
+        "caption_zh": "西溪蛙语：湿地蛙类物种保护性介入设计",
+        "caption_en": "\"Frog Spirit of Xixi\" (regarding observation and protection of frogs in Xixi Wetland)"
+      },
+      {
+        "src": "images/simin-tao-p3.webp",
+        "caption_zh": "DIVE-IN：数据驱动与用户参与的响应式环境调控系统设计",
+        "caption_en": "DIVE-IN: Design of a Data-Driven and\r\nUser-Participatory Responsive Environmental Regulation System"
+      },
+      {
+        "src": "images/simin-tao-p4.webp",
+        "caption_zh": "“街奏”：节拍型适老化活动社区体验设计",
+        "caption_en": "“Street Rhythm”: A Rhythm-Based Community\r\nExperience Design for Age-Friendly Activities"
+      },
+      {
+        "src": "images/simin-tao-p5.webp",
+        "caption_zh": "丝绸之路传统民居生态智慧可视化设计",
+        "caption_en": "Visualization Design of Ecological Wisdom\r\nin Traditional Dwellings along the Silk Road"
+      }
+    ]
+  },
+  {
+    "id": "hyejin-lee",
+    "name_zh": "李何槿",
+    "name_en": "Hyejin Lee",
+    "title_zh": "实践副教授",
+    "title_en": "Associate Professor of Practice",
+    "photo": "images/photo-hyejin-lee.webp",
+    "bio_zh": "Hyejin 是同济大学设计创意学院的一名实践型副教授。她的研究领域是设计驱动创业、设计思维和工业4.0、人工智能及其实际应用等。在加入同济之前，她于2006年在美国波士顿创立了THE MEME，即前瞻设计战略咨询公司，通过进行严格的定性和定量研究，帮助企业定义商业机会，设计新产品和服务战略。\n\n \n作为创始人和思想领袖，Hyejin在各种设计学科方面拥有超过20年的专业和学术经验。她以专业的设计视角为各行各业的客户在新兴技术和客户体验的交叉点制定设计战略，这些客户包括消费电子、医疗保健、机器人、汽车和许多初创企业。客户包括微软、+GF+, iRobot、三星电子、LG、波音和其他以创新为中心的公司。\n \n她对设计领导力、创新以及与技术和用户体验的互动有着特殊的兴趣，曾受邀在设计领域诸多重要活动中发表演讲。近期曾前往哈佛大学肯尼迪学院、哈佛大学工程与应用科学学院、麻省理工学院IDM（综合设计管理）、长江商学院等发表演讲。她还在首尔国立大学、延世大学任教。他被韩国科学、信息和通信技术及未来规划部任命为韩国创新中心的全球领导者导师。\n \nHyejin在首尔国立大学设计学院获得工业设计的BFA（美术学士）学位，在韩国梨花女子大学获得环境设计的MFA，并在美国马萨诸塞州剑桥的哈佛大学设计研究生院获得MDes（设计研究硕士）。",
+    "bio_en": "Hyejin is an Associate Professor of Practice at the College of Design and Innovation at Tongji University. Her research areas are Design Driven Innovation and Entrepreneurship and its practical applications, and creative sustainability. Before joining Tongji, she founded THE MEME, a foresight strategy consultancy in 2006 in Boston USA, which helps companies design new product and service strategies by conducting rigorous qualitative research.\n\nAs the founder Hyejin has over 25 years of professional and academic experience in various design disciplines. She provides an expert’s design perspective to clients across a wide range of industries, including consumer electronics, healthcare, robotics, automobiles, and many start-ups. The clients include Microsoft, iRobot, Samsung Electronics, LG, Georg Fischer, and other innovation-centric firms, developing design strategy at the intersection of emerging technology and customer experience.\n\nAa a frequent invited speaker and lecturer, she has a special interest in design leadership, innovation, and interaction with technology and user experience. Her recent speaking engagements include Harvard Kennedy School, School of Engineering and Applied Science at Harvard University, MIT IDM(Integrated Design Management), CKGSB(Cheung Kong Graduate School of Business), etc. He was appointed as a Global Leader Mentor of the Korean Innovation Center from the Ministry of Science and ICT.\n\nHyejin earned a BFA (Bachelor of Fine Arts) degree in Industrial Design from the Faculty of Design at Seoul National University and an MDes (Master in Design Studies) at the Graduate School of Design from Harvard University.\n",
+    "tags": [
+      "Social Innovation",
+      "Design Entrepreneurship",
+      "Sustainable Design"
+    ],
+    "achievements": [
+      {
+        "name_zh": "2nd NICE",
+        "name_en": "2nd NICE",
+        "description_zh": "2nd Nice 是一家致力于推广可持续生活方式的非营利组织。我们接受二手闲置物品的捐赠，并将其重新整理后进行销售。\n\n此外，2nd NICE 还提供 REMAKE（再造）工作坊。参与者可以携带闲置的环保袋，通过再设计与改造，制作出独一无二的专属环保袋。在这一过程中，参与者不仅能够加深对可持续发展议题的理解，也能够学习如何通过再利用赋予旧物新的价值。\n\n我们的目标是开设更多门店，传播富有创造力的可持续生活方式，同时为残障人士创造更多有意义的就业机会。\n\n目前，上海共有两家 2nd NICE 门店。",
+        "description_en": "2nd Nice is a non-profit organization dedicated to promoting sustainable living. We accept donations of pre-loved items, which we then resell. Also, 2nd NICE offers REMAKE workshop. Participants provide an unused eco bag to create their own unique eco bag. The workshop allows participants to understand the issue of sustainability and learn how to remake it. Our goal is to open more stores to spread creative sustainable lifestyles and create more meaningful job opportunities for individuals with disabilities. \nCurrently, there are two 2nd NICE in Shanghai. \n"
+      }
+    ],
+    "courses": [
+      {
+        "name_zh": "以设计驱动的社会创业与创意可持续发展",
+        "name_en": "Design-Driven Social Entrepreneurship for Creative Sustainability\n",
+        "description_zh": "本课程探讨以设计驱动的社会创业如何成为推动系统性变革的重要力量。学生将运用设计方法识别社区需求，并构建可持续商业模式原型。通过融合创意策略与社会创新，参与者将学习如何开发具有社会影响力的事业，促进社区的韧性、包容性以及长期环境可持续发展。",
+        "description_en": "This course explores design-driven social entrepreneurship as a catalyst for systemic change. Students apply design methodologies to identify community needs and prototype sustainable business models. By integrating creative strategy with social innovation, participants learn to develop impactful ventures that foster resilient, inclusive communities and long-term environmental sustainability.\n"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "images/hyejin-lee-p1.webp",
+        "caption_zh": "回旋袋样品-所有材料都来自旧衣服或剩余布料",
+        "caption_en": "Sample of the Boomerang Bag. All the materials are from either old clothing, or leftover fabrics"
+      },
+      {
+        "src": "images/hyejin-lee-p2.webp",
+        "caption_zh": "使用回旋袋的顾客",
+        "caption_en": "Customers with Boomerang Bag"
+      },
+      {
+        "src": "images/hyejin-lee-p3.webp",
+        "caption_zh": "\n国际零废弃物日：循环工作坊",
+        "caption_en": "International day of zero waste: circularity workshop"
+      },
+      {
+        "src": "images/hyejin-lee-p4.webp",
+        "caption_zh": "环保袋再制工作坊",
+        "caption_en": "ReMake Eco Bag Workshop"
+      }
+    ]
+  },
+  {
+    "id": "danwen-ji",
+    "name_zh": "纪丹雯",
+    "name_en": "Danwen Ji",
+    "title_zh": "博士后",
+    "title_en": "Post-doctoral Researcher",
+    "photo": "",
+    "bio_zh": "",
+    "bio_en": "",
+    "tags": [],
+    "achievements": [],
+    "courses": [],
     "gallery": []
+  },
+  {
+    "id": "chang-liu",
+    "name_zh": "刘畅",
+    "name_en": "Chang Liu",
+    "title_zh": "副教授",
+    "title_en": "Associate Professor",
+    "photo": "",
+    "bio_zh": "",
+    "bio_en": "",
+    "tags": [],
+    "achievements": [],
+    "courses": [],
+    "gallery": []
+  }
+]
+
+window.__FEATURED_PROJECTS__ = [
+  {
+    "id": "design-harvests",
+    "name_zh": "设计丰收",
+    "name_en": "Design Harvests",
+    "description_zh": "设计丰收（Design Harvests）是一个以设计驱动城乡互动与社区发展的社会创新项目。项目通过参与式设计方法，将城市创意资源与乡村传统智慧相结合，围绕农业生产、手工艺复兴与社区营造开展协同实践。通过设计介入真实场景，激活地方文化与社会网络，探索可持续的生产与生活方式，推动城乡之间形成互补共生的发展模式，并为乡村振兴与社区可持续发展提供新的设计路径与实践案例。\n",
+    "description_en": "Design Harvests is a social innovation initiative that uses design to foster interaction between urban and rural communities and support community development. Through participatory design approaches, the project connects urban creative resources with rural traditional knowledge. It focuses on collaborative practices in sustainable agriculture, craft revitalization, and community building. By introducing design into real-life contexts, the initiative activates local culture, skills, and social networks while exploring sustainable ways of production and living. Design Harvests aims to develop new models of urban–rural symbiosis and to provide practical design-driven approaches for rural revitalization and long-term community sustainability.",
+    "faculty_ids": [
+      "lou-yongqi",
+      "francesca-valsecchi",
+      "zhu-xiaocun"
+    ],
+    "images": [
+      {
+        "src": "images/design-harvests-p1.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/design-harvests-p2.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/design-harvests-p3.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/design-harvests-p4.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/design-harvests-p5.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/design-harvests-p6.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/design-harvests-p7.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      }
+    ]
+  },
+  {
+    "id": "nice-2035",
+    "name_zh": "NICE 2035 原型街",
+    "name_en": "NICE 2035 Prototype Street",
+    "description_zh": "\nNICE 2035 是一个面向未来生活方式的社区级社会创新实验平台。项目以“设计驱动创新”为核心理念，汇聚高校、企业、政府与社区居民，在真实社区场景中开展跨界协作。通过设计实验、原型孵化与公共参与，探索可持续的产品、服务与系统解决方案。平台关注城市微更新、社区治理与社会创新实践，致力于在日常生活空间中构建开放协同的创新生态，为未来城市社区的发展提供新的方法与实践路径。",
+    "description_en": "NICE 2035 is a community-based social innovation platform that explores future lifestyles through design-driven innovation. The initiative brings together universities, companies, government agencies, and local residents to collaborate within real community environments. Through design experiments, prototyping, and public participation, the platform incubates sustainable products, services, and systems. NICE 2035 focuses on urban micro-renewal, community governance, and everyday innovation practices. By creating an open and collaborative innovation ecosystem embedded in daily life, it explores new approaches to shaping future urban communities and demonstrates how design can serve as a catalyst for social innovation and sustainable urban development.",
+    "faculty_ids": [
+      "lou-yongqi",
+      "wu-duan",
+      "danwen-ji"
+    ],
+    "images": [
+      {
+        "src": "images/nice2035-p1.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/nice2035-p2.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/nice2035-p3.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      }
+    ]
+  },
+  {
+    "id": "wdcc-2025",
+    "name_zh": "WDCC 2025 设计无界，生生不息主题展",
+    "name_en": "WDCC 2025: Design Without Boundaries, Endless Growth",
+    "description_zh": "“设计无界 生生不息”主题展是在世界设计之都大会框架下策划的重要展览项目。展览以设计跨越学科与行业边界为核心视角，通过多样化案例与实践，呈现设计在生态保护、社会创新与产业转型中的积极作用。展览强调设计作为连接技术、文化与社会的重要媒介，引导公众理解设计在可持续发展中的价值，并推动设计从单一产品创造走向系统性创新与社会变革。",
+    "description_en": "\n“Design Without Boundaries, Endless Growth” Exhibition was curated within the framework of the World Design Cities Conference (WDCC). The exhibition highlights how design transcends disciplinary and industrial boundaries to address ecological, social, and economic challenges. Through diverse cases and design practices, it demonstrates the role of design in environmental sustainability, social innovation, and industrial transformation. The exhibition presents design as a bridge connecting technology, culture, and society, while encouraging the public to recognize the broader value of design. It aims to promote the understanding of design not only as product creation but also as a driver of systemic innovation and societal change.\n",
+    "faculty_ids": [
+      "lou-yongqi",
+      "lu-wen"
+    ],
+    "images": [
+      {
+        "src": "images/wdcc-p0.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p1.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p2.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p3.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p4.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p5.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p6.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p7.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p8.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      },
+      {
+        "src": "images/wdcc-p9.webp",
+        "caption_zh": "",
+        "caption_en": ""
+      }
+    ]
   }
 ];

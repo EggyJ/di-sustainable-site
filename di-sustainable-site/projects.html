@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D&I | Projects</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="logo-text">D&I</div>
+    <div class="logo-sub">Tongji University</div>
+  </a>
+  <div class="nav-right">
+    <div class="lang-toggle" id="lang-toggle">
+      <span class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中</span>
+      <span class="lang-btn" data-lang="en" onclick="setLang('en')">EN</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html" data-page="home" data-t="nav_home">Home</a>
+      <a href="projects.html" data-page="projects" data-t="nav_projects">Projects</a>
+      <a href="faculty.html" data-page="faculty" data-t="nav_faculty">Faculty</a>
+      <a href="courses.html" data-page="courses" data-t="nav_courses">Courses</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <h1 data-lang-zh="项目案例" data-lang-en="Projects"></h1>
+  <div class="page-subtitle" data-lang-zh="可持续设计与社会创新的代表性研究成果与实践项目" data-lang-en="Selected research outcomes and practice projects in sustainable design and social innovation"></div>
+</div>
+
+<div class="section">
+  <div class="section-header">
+    <h2><span class="color-dot"></span> <span data-lang-zh="全部项目" data-lang-en="All Projects"></span></h2>
+    <span class="count" id="projects-count"></span>
+  </div>
+  <!-- Filter by faculty -->
+  <div style="margin-bottom:20px;display:flex;gap:8px;flex-wrap:wrap" id="filter-bar">
+    <button class="filter-btn active" data-filter="all" onclick="filterProjects('all')"></button>
+  </div>
+  <div class="projects-grid" id="projects-grid"></div>
+</div>
+
+<div class="detail-overlay" id="detail-overlay">
+  <button class="detail-close" onclick="closeDetail()">&times;</button>
+  <div class="detail-content" id="detail-content"></div>
+</div>
+
+<div class="footer">
+  <span class="brand">D&I Tongji</span>
+  <span>College of Design & Innovation, Tongji University</span>
+  <a href="#">Sustainable Design &times; Social Innovation</a>
+</div>
+
+<style>
+.filter-btn{
+  padding:4px 12px;font-size:11px;font-weight:600;
+  border:1px solid var(--color-border-sub);
+  background:var(--color-bg-subtle);color:var(--color-text-sub);
+  cursor:pointer;transition:var(--transition);letter-spacing:0.3px;
+  border-radius:3px;font-family:var(--font-sans);
+}
+.filter-btn:hover{border-color:var(--color-border);background:var(--color-bg-alt)}
+.filter-btn.active{background:var(--color-title-deep);color:#fff;border-color:var(--color-title-deep)}
+</style>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+<script>
+/* ─── Projects Page ─── */
+let __FILTER = 'all';
+let __ALL_CARDS = [];
+
+function renderPage(){
+  const data = getData();
+  __ALL_CARDS = [];
+  data.forEach(f=>{
+    (f.achievements||[]).forEach((a,idx)=>{
+      const galImgs = (f.gallery||[]).filter(g=>g.src);
+      const cover = galImgs[0] ? galImgs[0].src : '';
+      __ALL_CARDS.push({
+        name: langField(a,'name') || T('untitled'),
+        description: langField(a,'description'),
+        facultyName: f.name_zh || f.name_en || '',
+        facultyId: f.id,
+        achIndex: idx
+      });
+    });
+  });
+
+  document.getElementById('projects-count').textContent = __ALL_CARDS.length + T('projects_suffix');
+
+  // Build filter bar
+  const bar = document.getElementById('filter-bar');
+  const faculties = data.map(f=>({id:f.id, name: f.name_zh || f.name_en}));
+  bar.innerHTML = `<button class="filter-btn ${__FILTER==='all'?'active':''}" data-filter="all" onclick="filterProjects('all')">${__LANG==='zh'?'全部':'All'}</button>`
+    + faculties.map(f=>`<button class="filter-btn ${__FILTER===f.id?'active':''}" data-filter="${f.id}" onclick="filterProjects('${f.id}')">${esc(f.name)}</button>`).join('');
+
+  applyFilter();
+}
+
+function filterProjects(id){
+  __FILTER = id;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.toggle('active', b.dataset.filter === id));
+  applyFilter();
+}
+
+function applyFilter(){
+  const grid = document.getElementById('projects-grid');
+  const cards = __FILTER === 'all' ? __ALL_CARDS : __ALL_CARDS.filter(c=>c.facultyId === __FILTER);
+
+  if(!cards.length){
+    grid.innerHTML = `<div class="empty-state"><div class="icon">+</div><h3>${T('no_projects')}</h3></div>`;
+    return;
+  }
+
+  const data = getData();
+  grid.innerHTML = cards.map(p=>{
+    const f = data.find(x=>x.id===p.facultyId);
+    return `<div class="project-card" onclick="openProjectDetail('${p.facultyId}',${p.achIndex})">
+      <div class="project-img">
+        <div class="placeholder">+</div>
+      </div>
+      <div class="project-text">
+        <h3>${esc(p.name)}</h3>
+        <p>${esc(p.description)||''}</p>
+        <div class="project-faculty">
+          <div class="mini-avatar">${f && f.photo ? `<img src="${f.photo}">` : ''}</div>
+          <span>${esc(p.facultyName)}</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+setActiveNav('projects');
+renderPage();
+</script>
+</body>
+</html>
